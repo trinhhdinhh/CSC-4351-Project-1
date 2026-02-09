@@ -1,4 +1,3 @@
-
 lexer grammar gLexer;
 
 @header {
@@ -9,9 +8,21 @@ lexer grammar gLexer;
 @members {
    StringBuilder sb;
    private int stringToInt(String target) {
-      // TODO: Implement me!
-      return 0;
+      
+      if (target.startsWith("0x") || target.startsWith("0X")) { //Hex, substring from 2 on to skip "0x"
+         return Integer.parseInt(target.substring(2), 16);
+      }
+      else if (target.startsWith("0") && target.length() > 1) { //Octal, can just parse entire integer 
+         return Integer.parseInt(target, 8);
+      } 
+      else { // Decimal
+         return Integer.parseInt(target, 10);
+      }
    }
+
+
+
+   
 }
 
 fragment ALPHA
@@ -49,7 +60,7 @@ ID
 
 // Multi-character operators
 AND    : '&&'  ;  // Logical AND
-LOR     : '||'  ;  // Logical OR
+OR     : '||'  ;  // Logical OR
 ARROW   : '->'  ;  // Arrow operator
 
 // Single-character operators
@@ -77,4 +88,12 @@ RSQUARE  : ']'   ;  // Right bracket
 
 // ===== INTEGERS =====
 // Person 3
+DECIMAL_LITERAL
+   : '0' [xX] [0-9a-fA-F]+      // Hex -> 0x(Digit between 0-9,a-f,A-F) repeated at least once
+   | '0' [0-7]+                  // Octal -> 0(Digit between 0-7) repeated at least once
+   | '0'                         // Single digit zero
+   | [1-9] DIGIT*                // Decimal -> (Digit between 1-9) (Digit fragment defined earlier, that is digit between 0-9) repeated 0 or more times
+   ;
 
+// ===== STRINGS =====
+// Person 4
