@@ -97,3 +97,27 @@ DECIMAL_LITERAL
 
 // ===== STRINGS =====
 // Person 4
+// ===== WHITESPACE =====
+WS
+  : [ \t\r\n]+ -> skip
+  ;
+// ===== COMMENTS =====
+LINE_COMMENT
+  : '//' ~[\r\n]* -> skip
+  ;
+
+BLOCK_COMMENT
+  : '/*' .*? '*/' -> skip
+  ;
+
+  STRING_LITERAL
+  : '"' (ESC_SEQ | ~["\\\r\n])* '"'
+  ;
+
+  // ==== ESCAPE SEQUENCES ====
+
+  fragment ESC_SEQ
+  : '\\' [btnrfav"'\\]
+  |'\\' [0-7] [0-7]? [0-7]?
+  | '\\' 'x' [0-9a-fA-F]+
+  ;
