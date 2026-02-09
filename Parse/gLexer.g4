@@ -48,7 +48,7 @@ ID
 // Person 2: Multi-character operators MUST come before single-character ones
 
 // Multi-character operators
-LAND    : '&&'  ;  // Logical AND
+AND    : '&&'  ;  // Logical AND
 LOR     : '||'  ;  // Logical OR
 ARROW   : '->'  ;  // Arrow operator
 
@@ -56,21 +56,25 @@ ARROW   : '->'  ;  // Arrow operator
 LT      : '<'   ;  // Less than
 MUL     : '*'   ;  // Multiply
 ADD     : '+'   ;  // Add
-BNOT    : '~'   ;  // Bitwise NOT
+TILDE    : '~'   ;  // Bitwise NOT
 ASSIGN  : '='   ;  // Assignment
 DOT     : '.'   ;  // Dot operator
 
 // ===== PUNCTUATORS =====
 // Person 2: All punctuators
-LBRACE  : '{'   ;  // Left brace
-RBRACE  : '}'   ;  // Right brace
+LCURLY  : '{'   ;  // Left brace
+RCURLY  : '}'   ;  // Right brace
 COMMA   : ','   ;  // Comma
 LPAREN  : '('   ;  // Left parenthesis
 RPAREN  : ')'   ;  // Right parenthesis
-BAND    : '&'   ;  // Bitwise AND / Address-of
-BOR     : '|'   ;  // Bitwise OR
-LNOT    : '!'   ;  // Logical NOT
+BITWISEAND    : '&'   ;  // Bitwise AND / Address-of
+BITWISEOR     : '|'   ;  // Bitwise OR
+NOT    : '!'   ;  // Logical NOT
 SEMI    : ';'   ;  // Semicolon
 COLON   : ':'   ;  // Colon
-LBRACK  : '['   ;  // Left bracket
-RBRACK  : ']'   ;  // Right bracket
+LSQUARE  : '['   ;  // Left bracket
+RSQUARE  : ']'   ;  // Right bracket
+
+// ===== INTEGERS =====
+// Person 3
+
