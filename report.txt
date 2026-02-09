@@ -1,0 +1,1990 @@
+################################################################################
+################################################################################
+var break	)  	var	 ___O	  ____Vp5	_d3j	 9042 	4	"m\t\15\xF\x6e" "V\n\016\x0\b"	"d\f\0\xe\r\rg\0"	//b	 
+
+./tests/test_0.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VAR             var        line=1 col=0
+BREAK           break      line=1 col=4
+RPAREN          )          line=1 col=10
+VAR             var        line=1 col=14
+ID              ___O       line=1 col=19
+ID              ____Vp5    line=1 col=26
+ID              _d3j       line=1 col=34
+DECIMAL_LITERAL 9042       line=1 col=40
+DECIMAL_LITERAL 4          line=1 col=46
+STRING_LITERAL  "m\t\15\xF\x6e" line=1 col=48
+STRING_LITERAL  "V\n\016\x0\b" line=1 col=64
+STRING_LITERAL  "d\f\0\xe\r\rg\0" line=1 col=79
+EOF
+################################################################################
+}		void * return		&& 	_p			0xb  "r\a\00\x0J" "Y\?\07\x0\a"	"G\?\0\xFA\00\xe"   /*n*/  
+
+./tests/test_1.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RCURLY          }          line=1 col=0
+VOID            void       line=1 col=3
+MUL             *          line=1 col=8
+RETURN          return     line=1 col=10
+AND             &&         line=1 col=18
+ID              _p         line=1 col=22
+DECIMAL_LITERAL 0xb        line=1 col=27
+STRING_LITERAL  "r\a\00\x0J" line=1 col=32
+line 1:45 token recognition error at: '"Y\?'
+line 1:49 token recognition error at: '\'
+DECIMAL_LITERAL 07         line=1 col=50
+line 1:52 token recognition error at: '\'
+ID              x0         line=1 col=53
+line 1:55 token recognition error at: '\'
+ID              a          line=1 col=56
+STRING_LITERAL  "	"        line=1 col=57
+ID              G          line=1 col=60
+line 1:61 token recognition error at: '\'
+line 1:62 token recognition error at: '?'
+line 1:63 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=64
+line 1:65 token recognition error at: '\'
+ID              xFA        line=1 col=66
+line 1:69 token recognition error at: '\'
+DECIMAL_LITERAL 00         line=1 col=70
+line 1:72 token recognition error at: '\'
+ID              xe         line=1 col=73
+line 1:75 token recognition error at: '"   /*n*/  '
+EOF
+################################################################################
+var  _R 	  	_Q	___P	   0	 "w\\\1\xea\a\11"  //	
+
+./tests/test_10.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VAR             var        line=1 col=0
+ID              _R         line=1 col=5
+ID              _Q         line=1 col=12
+ID              ___P       line=1 col=15
+DECIMAL_LITERAL 0          line=1 col=23
+STRING_LITERAL  "w\\\1\xea\a\11" line=1 col=26
+EOF
+################################################################################
+&&	_M	0xd	"N\n\0\xb\01a\xa7"	 	"N\a\01\x8\v"		  /*do*/	////	
+
+./tests/test_11.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+AND             &&         line=1 col=0
+ID              _M         line=1 col=3
+DECIMAL_LITERAL 0xd        line=1 col=6
+STRING_LITERAL  "N\n\0\xb\01a\xa7" line=1 col=10
+STRING_LITERAL  "N\a\01\x8\v" line=1 col=31
+EOF
+################################################################################
+, 	_____VL_	__ULo	0X7 	 5	0XBFAF	"k\a\1\x55R\?\x66c\\\1Y\12\x8\12"		/*L*///, 	
+
+./tests/test_12.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+COMMA           ,          line=1 col=0
+ID              _____VL_   line=1 col=3
+ID              __ULo      line=1 col=12
+DECIMAL_LITERAL 0X7        line=1 col=18
+DECIMAL_LITERAL 5          line=1 col=24
+DECIMAL_LITERAL 0XBFAF     line=1 col=26
+line 1:33 token recognition error at: '"k\a\1\x55R\?'
+line 1:46 token recognition error at: '\'
+ID              x66c       line=1 col=47
+line 1:51 token recognition error at: '\'
+line 1:52 token recognition error at: '\'
+line 1:53 token recognition error at: '\'
+DECIMAL_LITERAL 1          line=1 col=54
+ID              Y          line=1 col=55
+line 1:56 token recognition error at: '\'
+DECIMAL_LITERAL 12         line=1 col=57
+line 1:59 token recognition error at: '\'
+ID              x8         line=1 col=60
+line 1:62 token recognition error at: '\'
+DECIMAL_LITERAL 12         line=1 col=63
+line 1:65 token recognition error at: '"\t\t/*L*///, \t'
+EOF
+################################################################################
+{  	 	{	  	} _T6_ 0		31 	  06	    		"B\\\124\xCf\x62\bc\12"	"V\'\15\x99N"	"K\?\0\x73\1"	 /*b*/ 
+
+./tests/test_13.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LCURLY          {          line=1 col=0
+LCURLY          {          line=1 col=6
+RCURLY          }          line=1 col=11
+ID              _T6_       line=1 col=13
+DECIMAL_LITERAL 0          line=1 col=18
+DECIMAL_LITERAL 31         line=1 col=21
+DECIMAL_LITERAL 06         line=1 col=27
+STRING_LITERAL  "B\\\124\xCf\x62\bc\12" line=1 col=36
+STRING_LITERAL  "V\'\15\x99N" line=1 col=60
+line 1:74 token recognition error at: '"K\?'
+line 1:78 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=79
+line 1:80 token recognition error at: '\'
+ID              x73        line=1 col=81
+line 1:84 token recognition error at: '\'
+DECIMAL_LITERAL 1          line=1 col=85
+line 1:86 token recognition error at: '"\t /*b*/ '
+EOF
+################################################################################
+return	___q 	_X_		 	0XB		"M\b\10\x5\113"	//		
+
+./tests/test_14.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RETURN          return     line=1 col=0
+ID              ___q       line=1 col=7
+ID              _X_        line=1 col=13
+DECIMAL_LITERAL 0XB        line=1 col=20
+STRING_LITERAL  "M\b\10\x5\113" line=1 col=25
+EOF
+################################################################################
+,	 ~ return	_T	_H		____hG   0 	999	0xB 0XF		"y\b\01\x8D\xF\0" "d\?\0\x5\13\02y\"" 	 	"r\n\0\xCD\v\1\10" "G\n\100\x1F\"" "q\f\103\x8AJ\t\r" /*g9E%b*/ 
+
+./tests/test_15.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+COMMA           ,          line=1 col=0
+TILDE           ~          line=1 col=3
+RETURN          return     line=1 col=5
+ID              _T         line=1 col=12
+ID              _H         line=1 col=15
+ID              ____hG     line=1 col=19
+DECIMAL_LITERAL 0          line=1 col=28
+DECIMAL_LITERAL 999        line=1 col=31
+DECIMAL_LITERAL 0xB        line=1 col=35
+DECIMAL_LITERAL 0XF        line=1 col=39
+STRING_LITERAL  "y\b\01\x8D\xF\0" line=1 col=44
+line 1:62 token recognition error at: '"d\?'
+line 1:66 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=67
+line 1:68 token recognition error at: '\'
+ID              x5         line=1 col=69
+line 1:71 token recognition error at: '\'
+DECIMAL_LITERAL 13         line=1 col=72
+line 1:74 token recognition error at: '\'
+DECIMAL_LITERAL 02         line=1 col=75
+ID              y          line=1 col=77
+line 1:78 token recognition error at: '\'
+STRING_LITERAL  ""         line=1 col=79
+STRING_LITERAL  "r\n\0\xCD\v\1\10" line=1 col=85
+STRING_LITERAL  "G\n\100\x1F\"" line=1 col=104
+STRING_LITERAL  "q\f\103\x8AJ\t\r" line=1 col=120
+EOF
+################################################################################
+{  struct	_l6	0XB		0X9	"S\?\00\x3S\a"					"l\"\106\x2\x8"	"R\t\13\xA\0" 	"R\a\101\x7F\b"		"W\n\000\x7\xCw\0"			"w\t\15\x8Cw" 	/*M*/ 
+
+./tests/test_16.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LCURLY          {          line=1 col=0
+STRUCT          struct     line=1 col=3
+ID              _l6        line=1 col=10
+DECIMAL_LITERAL 0XB        line=1 col=14
+DECIMAL_LITERAL 0X9        line=1 col=19
+line 1:23 token recognition error at: '"S\?'
+line 1:27 token recognition error at: '\'
+DECIMAL_LITERAL 00         line=1 col=28
+line 1:30 token recognition error at: '\'
+ID              x3S        line=1 col=31
+line 1:34 token recognition error at: '\'
+ID              a          line=1 col=35
+STRING_LITERAL  "					"    line=1 col=36
+ID              l          line=1 col=43
+line 1:44 token recognition error at: '\'
+STRING_LITERAL  "\106\x2\x8" line=1 col=45
+STRING_LITERAL  "R\t\13\xA\0" line=1 col=58
+STRING_LITERAL  "R\a\101\x7F\b" line=1 col=73
+STRING_LITERAL  "W\n\000\x7\xCw\0" line=1 col=90
+STRING_LITERAL  "w\t\15\x8Cw" line=1 col=111
+EOF
+################################################################################
+&  _qj			21		"C\b\1\xCD\x3E"	"p\f\10\xE\a" "h\a\0\xD\0Q"  	   	"H\b\02\xAq\xbDN"	  	   		 			///*j*//*kjE*/ 
+
+./tests/test_17.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BITWISEAND      &          line=1 col=0
+ID              _qj        line=1 col=3
+DECIMAL_LITERAL 21         line=1 col=9
+STRING_LITERAL  "C\b\1\xCD\x3E" line=1 col=13
+STRING_LITERAL  "p\f\10\xE\a" line=1 col=29
+STRING_LITERAL  "h\a\0\xD\0Q" line=1 col=43
+STRING_LITERAL  "H\b\02\xAq\xbDN" line=1 col=63
+EOF
+################################################################################
+typedef	__kv_ 9281	"q\t\125\xE\?"	"E\?\0\x47X\v\x9R\x9d" 	 "e\a\1\x5cX\x65V\x5\021\\"			//9 //(<W   /*%Q*/		//	 /*gn*/	
+
+./tests/test_18.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+TYPEDEF         typedef    line=1 col=0
+ID              __kv_      line=1 col=8
+DECIMAL_LITERAL 9281       line=1 col=14
+line 1:19 token recognition error at: '"q\t\125\xE\?'
+STRING_LITERAL  "	"        line=1 col=32
+ID              E          line=1 col=35
+line 1:36 token recognition error at: '\'
+line 1:37 token recognition error at: '?'
+line 1:38 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=39
+line 1:40 token recognition error at: '\'
+ID              x47X       line=1 col=41
+line 1:45 token recognition error at: '\'
+ID              v          line=1 col=46
+line 1:47 token recognition error at: '\'
+ID              x9R        line=1 col=48
+line 1:51 token recognition error at: '\'
+ID              x9d        line=1 col=52
+STRING_LITERAL  " 	 "      line=1 col=55
+ID              e          line=1 col=60
+line 1:61 token recognition error at: '\'
+ID              a          line=1 col=62
+line 1:63 token recognition error at: '\'
+DECIMAL_LITERAL 1          line=1 col=64
+line 1:65 token recognition error at: '\'
+ID              x5cX       line=1 col=66
+line 1:70 token recognition error at: '\'
+ID              x65V       line=1 col=71
+line 1:75 token recognition error at: '\'
+ID              x5         line=1 col=76
+line 1:78 token recognition error at: '\'
+DECIMAL_LITERAL 021        line=1 col=79
+line 1:82 token recognition error at: '\'
+line 1:83 token recognition error at: '\'
+line 1:84 token recognition error at: '"\t\t\t//9 //(<W   /*%Q*/\t\t//\t /*gn*/\t'
+EOF
+################################################################################
+[	__d3f	_____OBV	   		858	 	 "n\?\1\x2A\r" 	"E\"\11\x3\x6\110\r" 	/*X*///	////ep////A	
+
+./tests/test_19.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LSQUARE         [          line=1 col=0
+ID              __d3f      line=1 col=2
+ID              _____OBV   line=1 col=8
+DECIMAL_LITERAL 858        line=1 col=22
+line 1:29 token recognition error at: '"n\?'
+line 1:33 token recognition error at: '\'
+DECIMAL_LITERAL 1          line=1 col=34
+line 1:35 token recognition error at: '\'
+ID              x2A        line=1 col=36
+line 1:39 token recognition error at: '\'
+ID              r          line=1 col=40
+STRING_LITERAL  " 	"       line=1 col=41
+ID              E          line=1 col=45
+line 1:46 token recognition error at: '\'
+STRING_LITERAL  "\11\x3\x6\110\r" line=1 col=47
+EOF
+################################################################################
+~ struct _Z  ____kE_	0xD		    "w\?\005\xAA\xd9"  	 	/*T*//*i*/ /*Qqs*//*V8>*/	  	  /*!s*/  /*Wp*//*Nrb\?`.*//*=!PK*///		
+
+./tests/test_2.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+TILDE           ~          line=1 col=0
+STRUCT          struct     line=1 col=2
+ID              _Z         line=1 col=9
+ID              ____kE_    line=1 col=13
+DECIMAL_LITERAL 0xD        line=1 col=21
+line 1:30 token recognition error at: '"w\?'
+line 1:34 token recognition error at: '\'
+DECIMAL_LITERAL 005        line=1 col=35
+line 1:38 token recognition error at: '\'
+ID              xAA        line=1 col=39
+line 1:42 token recognition error at: '\'
+ID              xd9        line=1 col=43
+line 1:46 token recognition error at: '"  \t \t/*T*//*i*/ /*Qqs*//*V8>*/\t  \t  /*!s*/  /*Wp*//*Nrb\?'
+line 1:104 token recognition error at: '`'
+DOT             .          line=1 col=105
+MUL             *          line=1 col=106
+EOF
+################################################################################
+union	else		_C_4i _K2_1    37509 	"k\v\10\x9NrU"			"b\"\02\x12\r\xC2" "I\"\04\xf3\101"	/*#,*//*,M"*/ 	
+
+./tests/test_20.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+UNION           union      line=1 col=0
+ELSE            else       line=1 col=6
+ID              _C_4i      line=1 col=12
+ID              _K2_1      line=1 col=18
+DECIMAL_LITERAL 37509      line=1 col=27
+STRING_LITERAL  "k\v\10\x9NrU" line=1 col=34
+STRING_LITERAL  "b\"\02\x12\r\xC2" line=1 col=51
+STRING_LITERAL  "I\"\04\xf3\101" line=1 col=70
+EOF
+################################################################################
+&		  	 &&  ; _y6	8 "D\r\0\x20\v\?" "P\n\11\x98\0\010\xD\114\xc" 		 //v<a//// 	/*54*////*YBI*/	
+
+./tests/test_21.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BITWISEAND      &          line=1 col=0
+AND             &&         line=1 col=7
+SEMI            ;          line=1 col=11
+ID              _y6        line=1 col=13
+DECIMAL_LITERAL 8          line=1 col=17
+line 1:19 token recognition error at: '"D\r\0\x20\v\?'
+STRING_LITERAL  " "        line=1 col=33
+ID              P          line=1 col=36
+line 1:37 token recognition error at: '\'
+ID              n          line=1 col=38
+line 1:39 token recognition error at: '\'
+DECIMAL_LITERAL 11         line=1 col=40
+line 1:42 token recognition error at: '\'
+ID              x98        line=1 col=43
+line 1:46 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=47
+line 1:48 token recognition error at: '\'
+DECIMAL_LITERAL 010        line=1 col=49
+line 1:52 token recognition error at: '\'
+ID              xD         line=1 col=53
+line 1:55 token recognition error at: '\'
+DECIMAL_LITERAL 114        line=1 col=56
+line 1:59 token recognition error at: '\'
+ID              xc         line=1 col=60
+line 1:62 token recognition error at: '" \t\t //v<a//// \t/*54*////*YBI*/\t'
+EOF
+################################################################################
+if < 	_u0 0x0 0 0  	 9130	"E\\\0\x37\03" 		///*'/9*//*k}0*/ 
+
+./tests/test_22.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+IF              if         line=1 col=0
+LT              <          line=1 col=3
+ID              _u0        line=1 col=6
+DECIMAL_LITERAL 0x0        line=1 col=10
+DECIMAL_LITERAL 0          line=1 col=14
+DECIMAL_LITERAL 0          line=1 col=16
+DECIMAL_LITERAL 9130       line=1 col=21
+STRING_LITERAL  "E\\\0\x37\03" line=1 col=26
+EOF
+################################################################################
+)		 			_L_  7	 "o\?\000\x5K\?"	"n\"\100\x7E\b"	//C3// ////x /*S'*//*{Y?*/ 	
+
+./tests/test_23.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RPAREN          )          line=1 col=0
+ID              _L_        line=1 col=7
+DECIMAL_LITERAL 7          line=1 col=12
+line 1:15 token recognition error at: '"o\?'
+line 1:19 token recognition error at: '\'
+DECIMAL_LITERAL 000        line=1 col=20
+line 1:23 token recognition error at: '\'
+ID              x5K        line=1 col=24
+line 1:27 token recognition error at: '\'
+line 1:28 token recognition error at: '?'
+STRING_LITERAL  "	"        line=1 col=29
+ID              n          line=1 col=32
+line 1:33 token recognition error at: '\'
+STRING_LITERAL  "\100\x7E\b" line=1 col=34
+EOF
+################################################################################
+, !     _______n  9	  	2	 	0			0		"r\a\125\xC4\x5D" 	"D\r\15\x4\1"	 /*0*///			/*jU*//*wr*//*FJ ./*/ 	
+
+./tests/test_24.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+COMMA           ,          line=1 col=0
+NOT             !          line=1 col=2
+ID              _______n   line=1 col=8
+DECIMAL_LITERAL 9          line=1 col=18
+DECIMAL_LITERAL 2          line=1 col=23
+DECIMAL_LITERAL 0          line=1 col=27
+DECIMAL_LITERAL 0          line=1 col=31
+STRING_LITERAL  "r\a\125\xC4\x5D" line=1 col=34
+STRING_LITERAL  "D\r\15\x4\1" line=1 col=53
+EOF
+################################################################################
+}	 __c	0  	   0	"H\"\00\x6A\xa"	//8H] // /*Rx*///A	
+
+./tests/test_25.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RCURLY          }          line=1 col=0
+ID              __c        line=1 col=3
+DECIMAL_LITERAL 0          line=1 col=7
+DECIMAL_LITERAL 0          line=1 col=14
+STRING_LITERAL  "H\"\00\x6A\xa" line=1 col=16
+EOF
+################################################################################
+[  *	[ ___C  	 _____I 	 _w _d 	 __p   0xf 		0XcC	0 05	"l\t\13\xA4\xDD\xa\xc5\xFf\n" 	/*V*//*[*///zq//SJO 	 
+
+./tests/test_26.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LSQUARE         [          line=1 col=0
+MUL             *          line=1 col=3
+LSQUARE         [          line=1 col=5
+ID              ___C       line=1 col=7
+ID              _____I     line=1 col=15
+ID              _w         line=1 col=24
+ID              _d         line=1 col=27
+ID              __p        line=1 col=32
+DECIMAL_LITERAL 0xf        line=1 col=38
+DECIMAL_LITERAL 0XcC       line=1 col=44
+DECIMAL_LITERAL 0          line=1 col=49
+DECIMAL_LITERAL 05         line=1 col=51
+STRING_LITERAL  "l\t\13\xA4\xDD\xa\xc5\xFf\n" line=1 col=54
+EOF
+################################################################################
+const 	<		 return	 while _C_P__1	_f			___B 774	0XD4c	0xf "B\v\0\x4B\t\xbd" /*]*///6 /*%*/////N 
+
+./tests/test_27.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+CONST           const      line=1 col=0
+LT              <          line=1 col=7
+RETURN          return     line=1 col=11
+WHILE           while      line=1 col=19
+ID              _C_P__1    line=1 col=25
+ID              _f         line=1 col=33
+ID              ___B       line=1 col=38
+DECIMAL_LITERAL 774        line=1 col=43
+DECIMAL_LITERAL 0XD4c      line=1 col=47
+DECIMAL_LITERAL 0xf        line=1 col=53
+STRING_LITERAL  "B\v\0\x4B\t\xbd" line=1 col=57
+EOF
+################################################################################
+] (		else	_____J	0XC   	1 "n\"\11\xD9\'\"Br"    	/*_a>*//// 	/*A*/  
+
+./tests/test_28.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RSQUARE         ]          line=1 col=0
+LPAREN          (          line=1 col=2
+ELSE            else       line=1 col=5
+ID              _____J     line=1 col=10
+DECIMAL_LITERAL 0XC        line=1 col=17
+DECIMAL_LITERAL 1          line=1 col=24
+STRING_LITERAL  "n\"\11\xD9\'\"Br" line=1 col=26
+EOF
+################################################################################
+&&	 	 &	 _I__	 		__I8  	_d0	_r _Q	   	  ___g__		 __A 0XDE	 0	 "X\v\01\x1\'cm\xEE"  	"L\v\0\xfD\12" 	/*G*///: /*Z*/ 		
+
+./tests/test_29.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+AND             &&         line=1 col=0
+BITWISEAND      &          line=1 col=6
+ID              _I__       line=1 col=9
+ID              __I8       line=1 col=17
+ID              _d0        line=1 col=24
+ID              _r         line=1 col=28
+ID              _Q         line=1 col=31
+ID              ___g__     line=1 col=40
+ID              __A        line=1 col=49
+DECIMAL_LITERAL 0XDE       line=1 col=53
+DECIMAL_LITERAL 0          line=1 col=59
+STRING_LITERAL  "X\v\01\x1\'cm\xEE" line=1 col=62
+STRING_LITERAL  "L\v\0\xfD\12" line=1 col=84
+EOF
+################################################################################
+!		_C 	0	54 			"j\f\007\xE3\00" "y\'\003\xFo" "k\t\123\xa2o\12\r\xbdx\?\?\xE\"\xd\x6\a\fe"	//A//V 	///////*D*///	  	
+
+./tests/test_3.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+NOT             !          line=1 col=0
+ID              _C         line=1 col=3
+DECIMAL_LITERAL 0          line=1 col=7
+DECIMAL_LITERAL 54         line=1 col=9
+STRING_LITERAL  "j\f\007\xE3\00" line=1 col=15
+STRING_LITERAL  "y\'\003\xFo" line=1 col=32
+line 1:46 token recognition error at: '"k\t\123\xa2o\12\r\xbdx\?'
+line 1:71 token recognition error at: '\'
+line 1:72 token recognition error at: '?'
+line 1:73 token recognition error at: '\'
+ID              xE         line=1 col=74
+line 1:76 token recognition error at: '\'
+STRING_LITERAL  "\xd\x6\a\fe" line=1 col=77
+EOF
+################################################################################
+if		   { * 	,    | 	__h 	0  	9	"G\t\0\x48E\1\n" "A\f\17\x0\xCfO"		 //r(//l?9S//'U			////1X//QPl 	/*PT'*//*D*/	
+
+./tests/test_30.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+IF              if         line=1 col=0
+LCURLY          {          line=1 col=7
+MUL             *          line=1 col=9
+COMMA           ,          line=1 col=12
+BITWISEOR       |          line=1 col=17
+ID              __h        line=1 col=20
+DECIMAL_LITERAL 0          line=1 col=25
+DECIMAL_LITERAL 9          line=1 col=29
+STRING_LITERAL  "G\t\0\x48E\1\n" line=1 col=31
+STRING_LITERAL  "A\f\17\x0\xCfO" line=1 col=48
+EOF
+################################################################################
+; 	=	__k	0	44 	 "z\f\0\x38\b"  	  /*t5*/	
+
+./tests/test_31.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+SEMI            ;          line=1 col=0
+ASSIGN          =          line=1 col=3
+ID              __k        line=1 col=5
+DECIMAL_LITERAL 0          line=1 col=9
+DECIMAL_LITERAL 44         line=1 col=11
+STRING_LITERAL  "z\f\0\x38\b" line=1 col=16
+EOF
+################################################################################
+break		  __m	_p_ 0xc	28  	 "d\?\04\xE\t\125\aH" "x\'\13\xBA\02\00"  "E\v\022\xC4k"	//M//0'{na//	
+
+./tests/test_32.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BREAK           break      line=1 col=0
+ID              __m        line=1 col=9
+ID              _p_        line=1 col=13
+DECIMAL_LITERAL 0xc        line=1 col=17
+DECIMAL_LITERAL 28         line=1 col=21
+line 1:27 token recognition error at: '"d\?'
+line 1:31 token recognition error at: '\'
+DECIMAL_LITERAL 04         line=1 col=32
+line 1:34 token recognition error at: '\'
+ID              xE         line=1 col=35
+line 1:37 token recognition error at: '\'
+ID              t          line=1 col=38
+line 1:39 token recognition error at: '\'
+DECIMAL_LITERAL 125        line=1 col=40
+line 1:43 token recognition error at: '\'
+ID              aH         line=1 col=44
+STRING_LITERAL  " "        line=1 col=46
+ID              x          line=1 col=49
+line 1:50 token recognition error at: '\'
+line 1:51 token recognition error at: '''
+line 1:52 token recognition error at: '\'
+DECIMAL_LITERAL 13         line=1 col=53
+line 1:55 token recognition error at: '\'
+ID              xBA        line=1 col=56
+line 1:59 token recognition error at: '\'
+DECIMAL_LITERAL 02         line=1 col=60
+line 1:62 token recognition error at: '\'
+DECIMAL_LITERAL 00         line=1 col=63
+STRING_LITERAL  "  "       line=1 col=65
+ID              E          line=1 col=69
+line 1:70 token recognition error at: '\'
+ID              v          line=1 col=71
+line 1:72 token recognition error at: '\'
+DECIMAL_LITERAL 022        line=1 col=73
+line 1:76 token recognition error at: '\'
+ID              xC4k       line=1 col=77
+line 1:81 token recognition error at: '"\t//M//0'{na//\t'
+EOF
+################################################################################
+string union __C	 	7 2	03  	 	"r\v\02\x5W"	"z\r\117\x02\""	//D/*1*//*:2=*/ 	
+
+./tests/test_33.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+STRING          string     line=1 col=0
+UNION           union      line=1 col=7
+ID              __C        line=1 col=13
+DECIMAL_LITERAL 7          line=1 col=19
+DECIMAL_LITERAL 2          line=1 col=21
+DECIMAL_LITERAL 03         line=1 col=23
+STRING_LITERAL  "r\v\02\x5W" line=1 col=30
+STRING_LITERAL  "z\r\117\x02\"" line=1 col=43
+EOF
+################################################################################
+var	_BKa 	 _N			0Xdf 1		0x71de	"K\a\10\xai"	/*Z*/		
+
+./tests/test_34.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VAR             var        line=1 col=0
+ID              _BKa       line=1 col=4
+ID              _N         line=1 col=11
+DECIMAL_LITERAL 0Xdf       line=1 col=16
+DECIMAL_LITERAL 1          line=1 col=21
+DECIMAL_LITERAL 0x71de     line=1 col=24
+STRING_LITERAL  "K\a\10\xai" line=1 col=31
+EOF
+################################################################################
+const	_C   ____q	0xfF 	"b\a\17\xf\11" 				  //jT( 	
+
+./tests/test_35.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+CONST           const      line=1 col=0
+ID              _C         line=1 col=6
+ID              ____q      line=1 col=11
+DECIMAL_LITERAL 0xfF       line=1 col=17
+STRING_LITERAL  "b\a\17\xf\11" line=1 col=23
+EOF
+################################################################################
+=	if _Y4	  	00 	0x06 "z\"\10\x5\02"	"h\a\12\xbe\00n"  	//	 /*xS*/	////(    //;/*14*/	//G		
+
+./tests/test_36.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+ASSIGN          =          line=1 col=0
+IF              if         line=1 col=2
+ID              _Y4        line=1 col=5
+DECIMAL_LITERAL 00         line=1 col=12
+DECIMAL_LITERAL 0x06       line=1 col=16
+STRING_LITERAL  "z\"\10\x5\02" line=1 col=21
+STRING_LITERAL  "h\a\12\xbe\00n" line=1 col=36
+EOF
+################################################################################
+return ____UN	_yX7 0xdf	0		 0				0	 	0 "t\v\1\x3cI" /*AG6*/ 	
+
+./tests/test_37.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RETURN          return     line=1 col=0
+ID              ____UN     line=1 col=7
+ID              _yX7       line=1 col=14
+DECIMAL_LITERAL 0xdf       line=1 col=19
+DECIMAL_LITERAL 0          line=1 col=24
+DECIMAL_LITERAL 0          line=1 col=28
+DECIMAL_LITERAL 0          line=1 col=33
+DECIMAL_LITERAL 0          line=1 col=37
+STRING_LITERAL  "t\v\1\x3cI" line=1 col=39
+EOF
+################################################################################
+while		 __yuz	  		_a 	   0x1	"m\?\114\x6\x7"  			 "N\\\10\xE\xD2\x1y\"o" "Y\b\11\xd2\b\125N\x2" "F\n\1\xCL" "i\r\1\xaa\001" 	  		 "m\?\12\x9c\02"	/*o~0c~}*//*4*///	/*GX*//**H*//*B3*//*UuM'E3*//*B*/ 
+
+./tests/test_38.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+WHILE           while      line=1 col=0
+ID              __yuz      line=1 col=8
+ID              _a         line=1 col=18
+DECIMAL_LITERAL 0x1        line=1 col=25
+line 1:29 token recognition error at: '"m\?'
+line 1:33 token recognition error at: '\'
+DECIMAL_LITERAL 114        line=1 col=34
+line 1:37 token recognition error at: '\'
+ID              x6         line=1 col=38
+line 1:40 token recognition error at: '\'
+ID              x7         line=1 col=41
+STRING_LITERAL  "  			 "   line=1 col=43
+ID              N          line=1 col=51
+line 1:52 token recognition error at: '\'
+line 1:53 token recognition error at: '\'
+line 1:54 token recognition error at: '\'
+DECIMAL_LITERAL 10         line=1 col=55
+line 1:57 token recognition error at: '\'
+ID              xE         line=1 col=58
+line 1:60 token recognition error at: '\'
+ID              xD2        line=1 col=61
+line 1:64 token recognition error at: '\'
+ID              x1y        line=1 col=65
+line 1:68 token recognition error at: '\'
+STRING_LITERAL  "o"        line=1 col=69
+STRING_LITERAL  "Y\b\11\xd2\b\125N\x2" line=1 col=73
+STRING_LITERAL  "F\n\1\xCL" line=1 col=96
+STRING_LITERAL  "i\r\1\xaa\001" line=1 col=108
+line 1:130 token recognition error at: '"m\?'
+line 1:134 token recognition error at: '\'
+DECIMAL_LITERAL 12         line=1 col=135
+line 1:137 token recognition error at: '\'
+ID              x9c        line=1 col=138
+line 1:141 token recognition error at: '\'
+DECIMAL_LITERAL 02         line=1 col=142
+line 1:144 token recognition error at: '"\t/*o~0c~}*//*4*///\t/*GX*//**H*//*B3*//*UuM'E3*//*B*/ '
+EOF
+################################################################################
+return	 }		____s_	    		____C_V	_t 874	 0x4D52F "C\'\1\xa\x0" "B\n\112\x2\\\"\r" /*6*////////*k*/	 
+
+./tests/test_39.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RETURN          return     line=1 col=0
+RCURLY          }          line=1 col=8
+ID              ____s_     line=1 col=11
+ID              ____C_V    line=1 col=24
+ID              _t         line=1 col=32
+DECIMAL_LITERAL 874        line=1 col=35
+DECIMAL_LITERAL 0x4D52F    line=1 col=40
+STRING_LITERAL  "C\'\1\xa\x0" line=1 col=48
+STRING_LITERAL  "B\n\112\x2\\\"\r" line=1 col=62
+EOF
+################################################################################
+&& ]	 ~		var struct	 	void	_v_A 			0Xa2b	987	"u\'\1\xD4\x2"	//V 
+
+./tests/test_4.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+AND             &&         line=1 col=0
+RSQUARE         ]          line=1 col=3
+TILDE           ~          line=1 col=6
+VAR             var        line=1 col=9
+STRUCT          struct     line=1 col=13
+VOID            void       line=1 col=22
+ID              _v_A       line=1 col=27
+DECIMAL_LITERAL 0Xa2b      line=1 col=35
+DECIMAL_LITERAL 987        line=1 col=41
+STRING_LITERAL  "u\'\1\xD4\x2" line=1 col=45
+EOF
+################################################################################
+const _N _F  0x6	0x2 		0xf88ff		"J\r\0\xbC\12\v\"\01" 			 /*Q*//* *///X/*GC*/	
+
+./tests/test_40.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+CONST           const      line=1 col=0
+ID              _N         line=1 col=6
+ID              _F         line=1 col=9
+DECIMAL_LITERAL 0x6        line=1 col=13
+DECIMAL_LITERAL 0x2        line=1 col=17
+DECIMAL_LITERAL 0xf88ff    line=1 col=23
+STRING_LITERAL  "J\r\0\xbC\12\v\"\01" line=1 col=32
+EOF
+################################################################################
+;	if ______Z8 ____g 	11 	 7   25		0xBA2	0 "v\?\05\xf0\xFb" "q\\\023\xa\xb1\x1fc" 	"G\r\123\xa2\t"  ////  /*jD*/// 
+
+./tests/test_41.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+SEMI            ;          line=1 col=0
+IF              if         line=1 col=2
+ID              ______Z8   line=1 col=5
+ID              ____g      line=1 col=14
+DECIMAL_LITERAL 11         line=1 col=21
+DECIMAL_LITERAL 7          line=1 col=26
+DECIMAL_LITERAL 25         line=1 col=30
+DECIMAL_LITERAL 0xBA2      line=1 col=34
+DECIMAL_LITERAL 0          line=1 col=40
+line 1:42 token recognition error at: '"v\?'
+line 1:46 token recognition error at: '\'
+DECIMAL_LITERAL 05         line=1 col=47
+line 1:49 token recognition error at: '\'
+ID              xf0        line=1 col=50
+line 1:53 token recognition error at: '\'
+ID              xFb        line=1 col=54
+STRING_LITERAL  " "        line=1 col=57
+ID              q          line=1 col=60
+line 1:61 token recognition error at: '\'
+line 1:62 token recognition error at: '\'
+line 1:63 token recognition error at: '\'
+DECIMAL_LITERAL 023        line=1 col=64
+line 1:67 token recognition error at: '\'
+ID              xa         line=1 col=68
+line 1:70 token recognition error at: '\'
+ID              xb1        line=1 col=71
+line 1:74 token recognition error at: '\'
+ID              x1fc       line=1 col=75
+STRING_LITERAL  " 	"       line=1 col=79
+ID              G          line=1 col=83
+line 1:84 token recognition error at: '\'
+ID              r          line=1 col=85
+line 1:86 token recognition error at: '\'
+DECIMAL_LITERAL 123        line=1 col=87
+line 1:90 token recognition error at: '\'
+ID              xa2        line=1 col=91
+line 1:94 token recognition error at: '\'
+ID              t          line=1 col=95
+line 1:96 token recognition error at: '"  ////  /*jD*/// '
+EOF
+################################################################################
+break   	struct		 struct			_P___ 02  0X4 	02506	 4	0Xef6e  2 		 "B\'\0\xdb\x50F\00\"\01V\xc\013\12" ////  		 
+
+./tests/test_42.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BREAK           break      line=1 col=0
+STRUCT          struct     line=1 col=9
+STRUCT          struct     line=1 col=18
+ID              _P___      line=1 col=27
+DECIMAL_LITERAL 02         line=1 col=33
+DECIMAL_LITERAL 0X4        line=1 col=37
+DECIMAL_LITERAL 02506      line=1 col=42
+DECIMAL_LITERAL 4          line=1 col=49
+DECIMAL_LITERAL 0Xef6e     line=1 col=51
+DECIMAL_LITERAL 2          line=1 col=59
+STRING_LITERAL  "B\'\0\xdb\x50F\00\"\01V\xc\013\12" line=1 col=64
+EOF
+################################################################################
+|| 	_C 	   __a__i4	 07	"S\n\005\xa\xCF"  /*0*//*:c*/  //-l//Rm/*m*//*9*/				
+
+./tests/test_43.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+OR              ||         line=1 col=0
+ID              _C         line=1 col=4
+ID              __a__i4    line=1 col=11
+DECIMAL_LITERAL 07         line=1 col=20
+STRING_LITERAL  "S\n\005\xa\xCF" line=1 col=23
+EOF
+################################################################################
+break __i	 __f		_r_ 0X0eC	 365 9 	"v\'\017\xDdyT\t\xBEd"	"j\?\0\x0a\f" 	 "S\'\0\x47\116"	"q\n\0\xd0\\"	"i\b\1\xf6\10\v"		//G////I///*'*//*n75*/ // 	/*e*///(	  
+
+./tests/test_44.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BREAK           break      line=1 col=0
+ID              __i        line=1 col=6
+ID              __f        line=1 col=11
+ID              _r_        line=1 col=16
+DECIMAL_LITERAL 0X0eC      line=1 col=20
+DECIMAL_LITERAL 365        line=1 col=27
+DECIMAL_LITERAL 9          line=1 col=31
+STRING_LITERAL  "v\'\017\xDdyT\t\xBEd" line=1 col=34
+line 1:57 token recognition error at: '"j\?'
+line 1:61 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=62
+line 1:63 token recognition error at: '\'
+ID              x0a        line=1 col=64
+line 1:67 token recognition error at: '\'
+ID              f          line=1 col=68
+STRING_LITERAL  " 	 "      line=1 col=69
+ID              S          line=1 col=74
+line 1:75 token recognition error at: '\'
+line 1:76 token recognition error at: '''
+line 1:77 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=78
+line 1:79 token recognition error at: '\'
+ID              x47        line=1 col=80
+line 1:83 token recognition error at: '\'
+DECIMAL_LITERAL 116        line=1 col=84
+STRING_LITERAL  "	"        line=1 col=87
+ID              q          line=1 col=90
+line 1:91 token recognition error at: '\'
+ID              n          line=1 col=92
+line 1:93 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=94
+line 1:95 token recognition error at: '\'
+ID              xd0        line=1 col=96
+line 1:99 token recognition error at: '\'
+line 1:100 token recognition error at: '\'
+STRING_LITERAL  "	"        line=1 col=101
+ID              i          line=1 col=104
+line 1:105 token recognition error at: '\'
+ID              b          line=1 col=106
+line 1:107 token recognition error at: '\'
+DECIMAL_LITERAL 1          line=1 col=108
+line 1:109 token recognition error at: '\'
+ID              xf6        line=1 col=110
+line 1:113 token recognition error at: '\'
+DECIMAL_LITERAL 10         line=1 col=114
+line 1:116 token recognition error at: '\'
+ID              v          line=1 col=117
+line 1:118 token recognition error at: '"\t\t//G////I///*'*//*n75*/ // \t/*e*///(\t  '
+EOF
+################################################################################
+else 		  	= ___P	3	  	"J\r\12\xDBQ"	//B	/*qw*/	 	
+
+./tests/test_45.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+ELSE            else       line=1 col=0
+ASSIGN          =          line=1 col=10
+ID              ___P       line=1 col=12
+DECIMAL_LITERAL 3          line=1 col=17
+STRING_LITERAL  "J\r\12\xDBQ" line=1 col=22
+EOF
+################################################################################
+void ;		___V		____q 6		 04	 "G\n\022\xd\05"    "R\b\0\xej" 		"T\\\10\xbD"	 "j\\\0\x59\x8" "J\a\11\x4EU\xD"   //vx/*Gi<&e>2$D*//*R*/  		
+
+./tests/test_46.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VOID            void       line=1 col=0
+SEMI            ;          line=1 col=5
+ID              ___V       line=1 col=8
+ID              ____q      line=1 col=14
+DECIMAL_LITERAL 6          line=1 col=20
+DECIMAL_LITERAL 04         line=1 col=24
+STRING_LITERAL  "G\n\022\xd\05" line=1 col=28
+STRING_LITERAL  "R\b\0\xej" line=1 col=47
+STRING_LITERAL  "T\\\10\xbD" line=1 col=61
+STRING_LITERAL  "j\\\0\x59\x8" line=1 col=75
+STRING_LITERAL  "J\a\11\x4EU\xD" line=1 col=90
+EOF
+################################################################################
+break _O0  2 "s\'\12\x79e"		 /*S~*//*\%*//*x*//*B*/		
+
+./tests/test_47.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BREAK           break      line=1 col=0
+ID              _O0        line=1 col=6
+DECIMAL_LITERAL 2          line=1 col=11
+STRING_LITERAL  "s\'\12\x79e" line=1 col=13
+EOF
+################################################################################
+~	 _z	0 	"S\b\11\x7ern\bn" 	"s\v\16\xdAE"  "K\?\02\x4\t\aw"	"V\"\02\xcbE"		/*s{2*//*V"*//*.*/	 	
+
+./tests/test_48.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+TILDE           ~          line=1 col=0
+ID              _z         line=1 col=3
+DECIMAL_LITERAL 0          line=1 col=6
+STRING_LITERAL  "S\b\11\x7ern\bn" line=1 col=9
+STRING_LITERAL  "s\v\16\xdAE" line=1 col=28
+line 1:43 token recognition error at: '"K\?'
+line 1:47 token recognition error at: '\'
+DECIMAL_LITERAL 02         line=1 col=48
+line 1:50 token recognition error at: '\'
+ID              x4         line=1 col=51
+line 1:53 token recognition error at: '\'
+ID              t          line=1 col=54
+line 1:55 token recognition error at: '\'
+ID              aw         line=1 col=56
+STRING_LITERAL  "	"        line=1 col=58
+ID              V          line=1 col=61
+line 1:62 token recognition error at: '\'
+STRING_LITERAL  "\02\xcbE" line=1 col=63
+EOF
+################################################################################
+) *	__R8	__n		35 	 "V\v\05\xd\17"	 /*y}.*///s//z 
+
+./tests/test_49.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RPAREN          )          line=1 col=0
+MUL             *          line=1 col=2
+ID              __R8       line=1 col=4
+ID              __n        line=1 col=9
+DECIMAL_LITERAL 35         line=1 col=14
+STRING_LITERAL  "V\v\05\xd\17" line=1 col=19
+EOF
+################################################################################
+void __BIf	 _lB 0  		 7 	 			"L\'\13\x5\'" "U\n\127\x8\xFFV"  //M		  ///*b.a(*/	
+
+./tests/test_5.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VOID            void       line=1 col=0
+ID              __BIf      line=1 col=5
+ID              _lB        line=1 col=12
+DECIMAL_LITERAL 0          line=1 col=16
+DECIMAL_LITERAL 7          line=1 col=22
+STRING_LITERAL  "L\'\13\x5\'" line=1 col=29
+STRING_LITERAL  "U\n\127\x8\xFFV" line=1 col=43
+EOF
+################################################################################
+union	 const	 if string ~	 	[ break _c0     	 0xc "d\"\1\x8\07\xab"	//:ek//\V	
+
+./tests/test_50.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+UNION           union      line=1 col=0
+CONST           const      line=1 col=7
+IF              if         line=1 col=14
+STRING          string     line=1 col=17
+TILDE           ~          line=1 col=24
+LSQUARE         [          line=1 col=28
+BREAK           break      line=1 col=30
+ID              _c0        line=1 col=36
+DECIMAL_LITERAL 0xc        line=1 col=46
+STRING_LITERAL  "d\"\1\x8\07\xab" line=1 col=50
+EOF
+################################################################################
+;  +	_M	 686 012	 0 0x0B8 "H\v\0\x8a\tm\17a"	  			"f\a\016\x5\xD3\f\x27\xb"	/////*Smy*/	/*L*/ 
+
+./tests/test_51.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+SEMI            ;          line=1 col=0
+ADD             +          line=1 col=3
+ID              _M         line=1 col=5
+DECIMAL_LITERAL 686        line=1 col=9
+DECIMAL_LITERAL 012        line=1 col=13
+DECIMAL_LITERAL 0          line=1 col=18
+DECIMAL_LITERAL 0x0B8      line=1 col=20
+STRING_LITERAL  "H\v\0\x8a\tm\17a" line=1 col=26
+STRING_LITERAL  "f\a\016\x5\xD3\f\x27\xb" line=1 col=50
+EOF
+################################################################################
+}	 _o	_BB	8 	 0X8 	 "g\'\1\xEc"	"Z\"\0\x4\?"	 /*]Q;]:*/ /*c*/	 
+
+./tests/test_52.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RCURLY          }          line=1 col=0
+ID              _o         line=1 col=3
+ID              _BB        line=1 col=6
+DECIMAL_LITERAL 8          line=1 col=10
+DECIMAL_LITERAL 0X8        line=1 col=14
+STRING_LITERAL  "g\'\1\xEc" line=1 col=20
+line 1:32 token recognition error at: '"Z\"\0\x4\?'
+line 1:43 token recognition error at: '"\t /*]Q;]:*/ /*c*/\t '
+EOF
+################################################################################
+[ _z 043  		   	"M\?\006\x3a\a\12v\x5a\xEf\xA\xF"	 "e\f\12\x6b\x0C" 	 //0' //Ep/*>*/// /*~*/ /*]*/ // /*0*/	/*s*//*j'*/	/*~*//*t9jqD*/	//	 
+
+./tests/test_53.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LSQUARE         [          line=1 col=0
+ID              _z         line=1 col=2
+DECIMAL_LITERAL 043        line=1 col=5
+line 1:16 token recognition error at: '"M\?'
+line 1:20 token recognition error at: '\'
+DECIMAL_LITERAL 006        line=1 col=21
+line 1:24 token recognition error at: '\'
+ID              x3a        line=1 col=25
+line 1:28 token recognition error at: '\'
+ID              a          line=1 col=29
+line 1:30 token recognition error at: '\'
+DECIMAL_LITERAL 12         line=1 col=31
+ID              v          line=1 col=33
+line 1:34 token recognition error at: '\'
+ID              x5a        line=1 col=35
+line 1:38 token recognition error at: '\'
+ID              xEf        line=1 col=39
+line 1:42 token recognition error at: '\'
+ID              xA         line=1 col=43
+line 1:45 token recognition error at: '\'
+ID              xF         line=1 col=46
+STRING_LITERAL  "	 "       line=1 col=48
+ID              e          line=1 col=52
+line 1:53 token recognition error at: '\'
+ID              f          line=1 col=54
+line 1:55 token recognition error at: '\'
+DECIMAL_LITERAL 12         line=1 col=56
+line 1:58 token recognition error at: '\'
+ID              x6b        line=1 col=59
+line 1:62 token recognition error at: '\'
+ID              x0C        line=1 col=63
+line 1:66 token recognition error at: '" \t //0' //Ep/*>*/// /*~*/ /*]*/ // /*0*/\t/*s*//*j'*/\t/*~*//*t9jqD*/\t//\t '
+EOF
+################################################################################
+=	 _o __C_b_0	 __W_G 3	 "I\"\021\x1A\'u" ////////	/*wU*/ 
+
+./tests/test_54.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+ASSIGN          =          line=1 col=0
+ID              _o         line=1 col=3
+ID              __C_b_0    line=1 col=6
+ID              __W_G      line=1 col=15
+DECIMAL_LITERAL 3          line=1 col=21
+STRING_LITERAL  "I\"\021\x1A\'u" line=1 col=24
+EOF
+################################################################################
+||  return		_UZ_y	_Z	8	0 	  	 "C\n\02\xe\n"		"f\n\04\x54m"  	//k   /*7@<1j9*/  
+
+./tests/test_55.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+OR              ||         line=1 col=0
+RETURN          return     line=1 col=4
+ID              _UZ_y      line=1 col=12
+ID              _Z         line=1 col=18
+DECIMAL_LITERAL 8          line=1 col=21
+DECIMAL_LITERAL 0          line=1 col=23
+STRING_LITERAL  "C\n\02\xe\n" line=1 col=30
+STRING_LITERAL  "f\n\04\x54m" line=1 col=45
+EOF
+################################################################################
++	_M	 0  "o\n\0\x1\100\02"			"F\n\17\x2a\x5\xBe\110"	///*^`*///a //o	
+
+./tests/test_56.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+ADD             +          line=1 col=0
+ID              _M         line=1 col=2
+DECIMAL_LITERAL 0          line=1 col=6
+STRING_LITERAL  "o\n\0\x1\100\02" line=1 col=9
+STRING_LITERAL  "F\n\17\x2a\x5\xBe\110" line=1 col=29
+EOF
+################################################################################
+}	    __N7j0L 	 	___s9	  _R_k 	_C 0		9	"h\n\00\x7\12" //E/*E*/	/*5--Uy*///@. /*T*/ 
+
+./tests/test_57.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RCURLY          }          line=1 col=0
+ID              __N7j0L    line=1 col=6
+ID              ___s9      line=1 col=17
+ID              _R_k       line=1 col=25
+ID              _C         line=1 col=31
+DECIMAL_LITERAL 0          line=1 col=34
+DECIMAL_LITERAL 9          line=1 col=37
+STRING_LITERAL  "h\n\00\x7\12" line=1 col=39
+EOF
+################################################################################
+[	   	__W	5 00 0xD2F	7 	"b\t\00\x71\111" 	"F\'\024\x1d\00"	/*f*///		
+
+./tests/test_58.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LSQUARE         [          line=1 col=0
+ID              __W        line=1 col=6
+DECIMAL_LITERAL 5          line=1 col=10
+DECIMAL_LITERAL 00         line=1 col=12
+DECIMAL_LITERAL 0xD2F      line=1 col=15
+DECIMAL_LITERAL 7          line=1 col=21
+STRING_LITERAL  "b\t\00\x71\111" line=1 col=24
+STRING_LITERAL  "F\'\024\x1d\00" line=1 col=42
+EOF
+################################################################################
+&&	union  __J6o_9	 	 0	04		 	0xc		"Q\"\10\x1d\xd"		/*)*/	    //Z	
+
+./tests/test_59.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+AND             &&         line=1 col=0
+UNION           union      line=1 col=3
+ID              __J6o_9    line=1 col=10
+DECIMAL_LITERAL 0          line=1 col=21
+DECIMAL_LITERAL 04         line=1 col=23
+DECIMAL_LITERAL 0xc        line=1 col=29
+STRING_LITERAL  "Q\"\10\x1d\xd" line=1 col=34
+EOF
+################################################################################
+typedef 	while ! 	_Bf			  _b 04		 "L\n\0\x60\xf\0"		"I\b\01\x82\0\00\"\f\xFal\04"	"y\"\1\x0e\16\x2"		/*!IF*/ 
+
+./tests/test_6.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+TYPEDEF         typedef    line=1 col=0
+WHILE           while      line=1 col=9
+NOT             !          line=1 col=15
+ID              _Bf        line=1 col=18
+ID              _b         line=1 col=26
+DECIMAL_LITERAL 04         line=1 col=29
+STRING_LITERAL  "L\n\0\x60\xf\0" line=1 col=34
+STRING_LITERAL  "I\b\01\x82\0\00\"\f\xFal\04" line=1 col=52
+STRING_LITERAL  "y\"\1\x0e\16\x2" line=1 col=82
+EOF
+################################################################################
+< 			_M 0XB28B	  0  03  0552151770 	"v\n\1\x3\xe\"\012\xAAz\xB7\xF\""	/*^*//*fg*/		//(	
+
+./tests/test_60.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LT              <          line=1 col=0
+ID              _M         line=1 col=5
+DECIMAL_LITERAL 0XB28B     line=1 col=8
+DECIMAL_LITERAL 0          line=1 col=17
+DECIMAL_LITERAL 03         line=1 col=20
+DECIMAL_LITERAL 0552151770 line=1 col=24
+STRING_LITERAL  "v\n\1\x3\xe\"\012\xAAz\xB7\xF\"" line=1 col=36
+EOF
+################################################################################
++   __b 	  0x1	0xda			"L\b\02\x4l\vO" /*lCp*/	//o$}//D1  /*V*//*rX>@*//*}*//*D*///s	    	 	
+
+./tests/test_61.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+ADD             +          line=1 col=0
+ID              __b        line=1 col=4
+DECIMAL_LITERAL 0x1        line=1 col=11
+DECIMAL_LITERAL 0xda       line=1 col=15
+STRING_LITERAL  "L\b\02\x4l\vO" line=1 col=22
+EOF
+################################################################################
+fun	___f	421	0x8 0x30fC 59	74 0	2 			0	"x\v\10\xB\"\xC\r" "P\f\0\xc\'"	"y\n\11\x6\1\0"   "F\b\1\x2\vq" "t\n\1\x8E\xAA" /*=z*/////,	
+
+./tests/test_62.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+FUN             fun        line=1 col=0
+ID              ___f       line=1 col=4
+DECIMAL_LITERAL 421        line=1 col=9
+DECIMAL_LITERAL 0x8        line=1 col=13
+DECIMAL_LITERAL 0x30fC     line=1 col=17
+DECIMAL_LITERAL 59         line=1 col=24
+DECIMAL_LITERAL 74         line=1 col=27
+DECIMAL_LITERAL 0          line=1 col=30
+DECIMAL_LITERAL 2          line=1 col=32
+DECIMAL_LITERAL 0          line=1 col=37
+STRING_LITERAL  "x\v\10\xB\"\xC\r" line=1 col=39
+STRING_LITERAL  "P\f\0\xc\'" line=1 col=58
+STRING_LITERAL  "y\n\11\x6\1\0" line=1 col=71
+STRING_LITERAL  "F\b\1\x2\vq" line=1 col=89
+STRING_LITERAL  "t\n\1\x8E\xAA" line=1 col=103
+EOF
+################################################################################
+typedef (	~ typedef  __o__ 					0XB 00	 "m\v\01\xD\107f"	 	"H\b\15\x1cO\v" "H\?\06\xD0\x8" 		"u\n\1\x3\1\07"	  		/*o*//*6*//*s*/	 	//]N+   
+
+./tests/test_63.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+TYPEDEF         typedef    line=1 col=0
+LPAREN          (          line=1 col=8
+TILDE           ~          line=1 col=10
+TYPEDEF         typedef    line=1 col=12
+ID              __o__      line=1 col=21
+DECIMAL_LITERAL 0XB        line=1 col=32
+DECIMAL_LITERAL 00         line=1 col=36
+STRING_LITERAL  "m\v\01\xD\107f" line=1 col=40
+STRING_LITERAL  "H\b\15\x1cO\v" line=1 col=59
+line 1:75 token recognition error at: '"H\?'
+line 1:79 token recognition error at: '\'
+DECIMAL_LITERAL 06         line=1 col=80
+line 1:82 token recognition error at: '\'
+ID              xD0        line=1 col=83
+line 1:86 token recognition error at: '\'
+ID              x8         line=1 col=87
+STRING_LITERAL  " 		"      line=1 col=89
+ID              u          line=1 col=94
+line 1:95 token recognition error at: '\'
+ID              n          line=1 col=96
+line 1:97 token recognition error at: '\'
+DECIMAL_LITERAL 1          line=1 col=98
+line 1:99 token recognition error at: '\'
+ID              x3         line=1 col=100
+line 1:102 token recognition error at: '\'
+DECIMAL_LITERAL 1          line=1 col=103
+line 1:104 token recognition error at: '\'
+DECIMAL_LITERAL 07         line=1 col=105
+line 1:107 token recognition error at: '"\t  \t\t/*o*//*6*//*s*/\t \t//]N+   '
+EOF
+################################################################################
+var			if  __h  __fw 02	 "j\f\0\x3\xc\010"	"H\b\00\x4\1"		 /*XwK*//*>U*///	
+
+./tests/test_64.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VAR             var        line=1 col=0
+IF              if         line=1 col=6
+ID              __h        line=1 col=10
+ID              __fw       line=1 col=15
+DECIMAL_LITERAL 02         line=1 col=20
+STRING_LITERAL  "j\f\0\x3\xc\010" line=1 col=24
+STRING_LITERAL  "H\b\00\x4\1" line=1 col=42
+EOF
+################################################################################
+string	) __QAD	8 0xa0	0xA  "e\r\1\x4\t"	/////*0XCP*/ 
+
+./tests/test_65.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+STRING          string     line=1 col=0
+RPAREN          )          line=1 col=7
+ID              __QAD      line=1 col=9
+DECIMAL_LITERAL 8          line=1 col=15
+DECIMAL_LITERAL 0xa0       line=1 col=17
+DECIMAL_LITERAL 0xA        line=1 col=22
+STRING_LITERAL  "e\r\1\x4\t" line=1 col=27
+EOF
+################################################################################
+var	(			_O_   __k	_q				5	0x02 "m\t\1\x4c\11\13"	//n/*H*/ /*5`>*/	 
+
+./tests/test_66.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VAR             var        line=1 col=0
+LPAREN          (          line=1 col=4
+ID              _O_        line=1 col=8
+ID              __k        line=1 col=14
+ID              _q         line=1 col=18
+DECIMAL_LITERAL 5          line=1 col=24
+DECIMAL_LITERAL 0x02       line=1 col=26
+STRING_LITERAL  "m\t\1\x4c\11\13" line=1 col=31
+EOF
+################################################################################
+] union		,	<	typedef 	        __V __P 		043 "C\t\02\x3b\"\xde\b"	"q\r\01\xB\\\xE" 			/*b*/	 /*]u*///X7Dc4/*K*/		///*Oz{*/  
+
+./tests/test_67.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RSQUARE         ]          line=1 col=0
+UNION           union      line=1 col=2
+COMMA           ,          line=1 col=9
+LT              <          line=1 col=11
+TYPEDEF         typedef    line=1 col=13
+ID              __V        line=1 col=30
+ID              __P        line=1 col=34
+DECIMAL_LITERAL 043        line=1 col=40
+STRING_LITERAL  "C\t\02\x3b\"\xde\b" line=1 col=44
+STRING_LITERAL  "q\r\01\xB\\\xE" line=1 col=65
+EOF
+################################################################################
+;   _r_6	   __t_ __o_ __U   __v2_ 	__xl 						 	____O6	_s_	 _WT    3 "v\'\1\x1\bZ\xd\x86\10" 	/*=o*//*ZG*//*+*//*y\*///	
+
+./tests/test_68.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+SEMI            ;          line=1 col=0
+ID              _r_6       line=1 col=4
+ID              __t_       line=1 col=12
+ID              __o_       line=1 col=17
+ID              __U        line=1 col=22
+ID              __v2_      line=1 col=28
+ID              __xl       line=1 col=35
+ID              ____O6     line=1 col=48
+ID              _s_        line=1 col=55
+ID              _WT        line=1 col=60
+DECIMAL_LITERAL 3          line=1 col=67
+STRING_LITERAL  "v\'\1\x1\bZ\xd\x86\10" line=1 col=69
+EOF
+################################################################################
+&	   {	 	__M9O ____k5 _s_	0xF "l\t\0\xf5\b\r" "s\r\12\x3\x0F"	"x\?\0\xd\xe5G\x7A\x16"	//hO! 
+
+./tests/test_69.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BITWISEAND      &          line=1 col=0
+LCURLY          {          line=1 col=5
+ID              __M9O      line=1 col=9
+ID              ____k5     line=1 col=15
+ID              _s_        line=1 col=22
+DECIMAL_LITERAL 0xF        line=1 col=26
+STRING_LITERAL  "l\t\0\xf5\b\r" line=1 col=30
+STRING_LITERAL  "s\r\12\x3\x0F" line=1 col=46
+line 1:62 token recognition error at: '"x\?'
+line 1:66 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=67
+line 1:68 token recognition error at: '\'
+ID              xd         line=1 col=69
+line 1:71 token recognition error at: '\'
+ID              xe5G       line=1 col=72
+line 1:76 token recognition error at: '\'
+ID              x7A        line=1 col=77
+line 1:80 token recognition error at: '\'
+ID              x16        line=1 col=81
+line 1:84 token recognition error at: '"\t//hO! '
+EOF
+################################################################################
+{	) __C	_Be	066	06	"a\r\04\xaa\0\\\t\0" 	////kx/*<HA*///N/*d*/	 /*&*/  
+
+./tests/test_7.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LCURLY          {          line=1 col=0
+RPAREN          )          line=1 col=2
+ID              __C        line=1 col=4
+ID              _Be        line=1 col=8
+DECIMAL_LITERAL 066        line=1 col=12
+DECIMAL_LITERAL 06         line=1 col=16
+STRING_LITERAL  "a\r\04\xaa\0\\\t\0" line=1 col=19
+EOF
+################################################################################
+~		+	 if	 	  		_W	12 34	  	"Q\t\0\xA\1\b"		"i\a\02\xE9\0"	/*lC]*/	
+
+./tests/test_70.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+TILDE           ~          line=1 col=0
+ADD             +          line=1 col=3
+IF              if         line=1 col=6
+ID              _W         line=1 col=15
+DECIMAL_LITERAL 12         line=1 col=18
+DECIMAL_LITERAL 34         line=1 col=21
+STRING_LITERAL  "Q\t\0\xA\1\b" line=1 col=27
+STRING_LITERAL  "i\a\02\xE9\0" line=1 col=43
+EOF
+################################################################################
+[	___p	045 0X752	8 	 "P\b\11\x60\b\xcf\r\x9E\02"	"F\'\01\xa\104"	//	 
+
+./tests/test_71.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LSQUARE         [          line=1 col=0
+ID              ___p       line=1 col=2
+DECIMAL_LITERAL 045        line=1 col=7
+DECIMAL_LITERAL 0X752      line=1 col=11
+DECIMAL_LITERAL 8          line=1 col=17
+STRING_LITERAL  "P\b\11\x60\b\xcf\r\x9E\02" line=1 col=21
+STRING_LITERAL  "F\'\01\xa\104" line=1 col=49
+EOF
+################################################################################
+fun const	_y _P0_1	__A	  		_p7 0 		 	"L\v\10\x5V\04\v\x27\r\"w\xD"	"I\t\17\x1\01\?"	"q\?\0\xC\n"	 "p\v\15\xE\x5\14"			 /*%UN*//*H]*/	/*f*//*!\FA*/ 
+
+./tests/test_72.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+FUN             fun        line=1 col=0
+CONST           const      line=1 col=4
+ID              _y         line=1 col=10
+ID              _P0_1      line=1 col=13
+ID              __A        line=1 col=19
+ID              _p7        line=1 col=27
+DECIMAL_LITERAL 0          line=1 col=31
+STRING_LITERAL  "L\v\10\x5V\04\v\x27\r\"w\xD" line=1 col=37
+line 1:67 token recognition error at: '"I\t\17\x1\01\?'
+STRING_LITERAL  "	"        line=1 col=82
+ID              q          line=1 col=85
+line 1:86 token recognition error at: '\'
+line 1:87 token recognition error at: '?'
+line 1:88 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=89
+line 1:90 token recognition error at: '\'
+ID              xC         line=1 col=91
+line 1:93 token recognition error at: '\'
+ID              n          line=1 col=94
+STRING_LITERAL  "	 "       line=1 col=95
+ID              p          line=1 col=99
+line 1:100 token recognition error at: '\'
+ID              v          line=1 col=101
+line 1:102 token recognition error at: '\'
+DECIMAL_LITERAL 15         line=1 col=103
+line 1:105 token recognition error at: '\'
+ID              xE         line=1 col=106
+line 1:108 token recognition error at: '\'
+ID              x5         line=1 col=109
+line 1:111 token recognition error at: '\'
+DECIMAL_LITERAL 14         line=1 col=112
+line 1:114 token recognition error at: '"\t\t\t /*%UN*//*H]*/\t/*f*//*!\F'
+ID              A          line=1 col=143
+MUL             *          line=1 col=144
+line 1:145 token recognition error at: '/ '
+EOF
+################################################################################
+string		int	= _Z6L	 	___F _F   			60461 0x7	"x\v\12\xd7\'\b"	 /*W/*/ 
+
+./tests/test_73.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+STRING          string     line=1 col=0
+INT             int        line=1 col=8
+ASSIGN          =          line=1 col=12
+ID              _Z6L       line=1 col=14
+ID              ___F       line=1 col=21
+ID              _F         line=1 col=26
+DECIMAL_LITERAL 60461      line=1 col=34
+DECIMAL_LITERAL 0x7        line=1 col=40
+STRING_LITERAL  "x\v\12\xd7\'\b" line=1 col=44
+EOF
+################################################################################
+) 		 && = ] _Ra_7  _s   	_O	__f_	 65	 1 		 00	"M\\\002\x8b\xC5"  ///////*$*///eJ'62  /* */			/*r*/	///////*Tf O*/	
+
+./tests/test_74.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RPAREN          )          line=1 col=0
+AND             &&         line=1 col=5
+ASSIGN          =          line=1 col=8
+RSQUARE         ]          line=1 col=10
+ID              _Ra_7      line=1 col=12
+ID              _s         line=1 col=19
+ID              _O         line=1 col=25
+ID              __f_       line=1 col=28
+DECIMAL_LITERAL 65         line=1 col=34
+DECIMAL_LITERAL 1          line=1 col=38
+DECIMAL_LITERAL 00         line=1 col=43
+STRING_LITERAL  "M\\\002\x8b\xC5" line=1 col=46
+EOF
+################################################################################
+[ _S48 	41 0xEe  06144  4 	 		"U\v\10\xe\\\024\0"	"L\"\120\x6d\\\024"   // 
+
+./tests/test_75.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LSQUARE         [          line=1 col=0
+ID              _S48       line=1 col=2
+DECIMAL_LITERAL 41         line=1 col=8
+DECIMAL_LITERAL 0xEe       line=1 col=11
+DECIMAL_LITERAL 06144      line=1 col=17
+DECIMAL_LITERAL 4          line=1 col=24
+STRING_LITERAL  "U\v\10\xe\\\024\0" line=1 col=30
+STRING_LITERAL  "L\"\120\x6d\\\024" line=1 col=50
+EOF
+################################################################################
+fun	_TB_  __LM _u7	_c		 	563			"U\t\05\xdd\104"	/*fG*//*C*//*Ed*/ 
+
+./tests/test_76.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+FUN             fun        line=1 col=0
+ID              _TB_       line=1 col=4
+ID              __LM       line=1 col=10
+ID              _u7        line=1 col=15
+ID              _c         line=1 col=19
+DECIMAL_LITERAL 563        line=1 col=25
+STRING_LITERAL  "U\t\05\xdd\104" line=1 col=31
+EOF
+################################################################################
++	&	 =	 return		[	 while _T___h	  		_A  _P	9			 		 	5239	"k\'\101\xA\?\02"	   "P\f\03\x30\xb6V\01" //KR	
+
+./tests/test_77.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+ADD             +          line=1 col=0
+BITWISEAND      &          line=1 col=2
+ASSIGN          =          line=1 col=5
+RETURN          return     line=1 col=8
+LSQUARE         [          line=1 col=16
+WHILE           while      line=1 col=19
+ID              _T___h     line=1 col=25
+ID              _A         line=1 col=36
+ID              _P         line=1 col=40
+DECIMAL_LITERAL 9          line=1 col=43
+DECIMAL_LITERAL 5239       line=1 col=52
+line 1:57 token recognition error at: '"k\'\101\xA\?'
+line 1:70 token recognition error at: '\'
+DECIMAL_LITERAL 02         line=1 col=71
+STRING_LITERAL  "	   "     line=1 col=73
+ID              P          line=1 col=79
+line 1:80 token recognition error at: '\'
+ID              f          line=1 col=81
+line 1:82 token recognition error at: '\'
+DECIMAL_LITERAL 03         line=1 col=83
+line 1:85 token recognition error at: '\'
+ID              x30        line=1 col=86
+line 1:89 token recognition error at: '\'
+ID              xb6V       line=1 col=90
+line 1:94 token recognition error at: '\'
+DECIMAL_LITERAL 01         line=1 col=95
+line 1:97 token recognition error at: '" //KR\t'
+EOF
+################################################################################
+| __H_ 0	0	"s\b\06\x72\?\\" /*m]*////*if*//*$!i*/ 
+
+./tests/test_78.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+BITWISEOR       |          line=1 col=0
+ID              __H_       line=1 col=2
+DECIMAL_LITERAL 0          line=1 col=7
+DECIMAL_LITERAL 0          line=1 col=9
+line 1:11 token recognition error at: '"s\b\06\x72\?'
+line 1:24 token recognition error at: '\'
+line 1:25 token recognition error at: '\'
+line 1:26 token recognition error at: '" /*m]*////*if*//*$!i*/ '
+EOF
+################################################################################
+)   _Pg  0 1	0  "H\v\06\xED\x9\\\xAF"		/*GmI*/	///*G*///&Ye/*P*///t 	//	 
+
+./tests/test_79.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RPAREN          )          line=1 col=0
+ID              _Pg        line=1 col=4
+DECIMAL_LITERAL 0          line=1 col=9
+DECIMAL_LITERAL 1          line=1 col=11
+DECIMAL_LITERAL 0          line=1 col=13
+STRING_LITERAL  "H\v\06\xED\x9\\\xAF" line=1 col=16
+EOF
+################################################################################
+var )	_g	_Q 0	0X1 0		"F\"\01\xf\x9"	"k\b\10\xd\xf\x1d\f"	 "D\v\0\xD6\004"	//	/*9*/ 
+
+./tests/test_8.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VAR             var        line=1 col=0
+RPAREN          )          line=1 col=4
+ID              _g         line=1 col=6
+ID              _Q         line=1 col=9
+DECIMAL_LITERAL 0          line=1 col=12
+DECIMAL_LITERAL 0X1        line=1 col=14
+DECIMAL_LITERAL 0          line=1 col=18
+STRING_LITERAL  "F\"\01\xf\x9" line=1 col=21
+STRING_LITERAL  "k\b\10\xd\xf\x1d\f" line=1 col=36
+STRING_LITERAL  "D\v\0\xD6\004" line=1 col=58
+EOF
+################################################################################
+{	 	___wl_	___yV		0	0Xc	"N\n\13\x9b\17\"R\r"		"z\b\10\xe\f\x8V"	//0cA//B		
+
+./tests/test_80.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LCURLY          {          line=1 col=0
+ID              ___wl_     line=1 col=4
+ID              ___yV      line=1 col=11
+DECIMAL_LITERAL 0          line=1 col=18
+DECIMAL_LITERAL 0Xc        line=1 col=20
+STRING_LITERAL  "N\n\13\x9b\17\"R\r" line=1 col=24
+STRING_LITERAL  "z\b\10\xe\f\x8V" line=1 col=46
+EOF
+################################################################################
+!  	__Ms	 62 "P\f\011\x05f"		"G\n\021\x9e\bn"	"r\v\0\xF\xd\\U\\"	 			"g\b\1\xe\124Z\"B\v"	 "v\b\101\xdAd"	 //<y8+ 			
+
+./tests/test_81.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+NOT             !          line=1 col=0
+ID              __Ms       line=1 col=4
+DECIMAL_LITERAL 62         line=1 col=10
+STRING_LITERAL  "P\f\011\x05f" line=1 col=13
+STRING_LITERAL  "G\n\021\x9e\bn" line=1 col=29
+STRING_LITERAL  "r\v\0\xF\xd\\U\\" line=1 col=46
+STRING_LITERAL  "g\b\1\xe\124Z\"B\v" line=1 col=69
+STRING_LITERAL  "v\b\101\xdAd" line=1 col=91
+EOF
+################################################################################
+typedef ____Y2_t	_u	   ___W		_F5 	0	48046 "t\\\102\x5\xC\00"	/*@f9U*/		
+
+./tests/test_82.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+TYPEDEF         typedef    line=1 col=0
+ID              ____Y2_t   line=1 col=8
+ID              _u         line=1 col=17
+ID              ___W       line=1 col=23
+ID              _F5        line=1 col=29
+DECIMAL_LITERAL 0          line=1 col=34
+DECIMAL_LITERAL 48046      line=1 col=36
+STRING_LITERAL  "t\\\102\x5\xC\00" line=1 col=42
+EOF
+################################################################################
+,   _d _w_	 0xF "s\'\12\x40Ki\120\12\b"   		/*?*/ /*J-A*/  	/*lu*///</*N*/	 
+
+./tests/test_83.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+COMMA           ,          line=1 col=0
+ID              _d         line=1 col=4
+ID              _w_        line=1 col=7
+DECIMAL_LITERAL 0xF        line=1 col=12
+STRING_LITERAL  "s\'\12\x40Ki\120\12\b" line=1 col=16
+EOF
+################################################################################
+!  ___N2		___P	 __X_	0 "U\"\11\xc\r\xf2" 	 "I\b\12\xBv\17\n" //  ////4^SF	//] 	  	  	
+
+./tests/test_84.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+NOT             !          line=1 col=0
+ID              ___N2      line=1 col=3
+ID              ___P       line=1 col=10
+ID              __X_       line=1 col=16
+DECIMAL_LITERAL 0          line=1 col=21
+STRING_LITERAL  "U\"\11\xc\r\xf2" line=1 col=23
+STRING_LITERAL  "I\b\12\xBv\17\n" line=1 col=43
+EOF
+################################################################################
+< __z	 0x9cC  			  "s\r\12\x8\'"	"t\f\115\xb4\\\x72\17\a\x36" 	"l\t\10\xd\t\x6I" "M\t\005\xDE\02m"	 /*0*/	  	 
+
+./tests/test_85.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LT              <          line=1 col=0
+ID              __z        line=1 col=2
+DECIMAL_LITERAL 0x9cC      line=1 col=7
+STRING_LITERAL  "s\r\12\x8\'" line=1 col=19
+STRING_LITERAL  "t\f\115\xb4\\\x72\17\a\x36" line=1 col=33
+STRING_LITERAL  "l\t\10\xd\t\x6I" line=1 col=63
+STRING_LITERAL  "M\t\005\xDE\02m" line=1 col=81
+EOF
+################################################################################
+!	 __Fi __D 		 	_J_7_r	___m__		_hU		0XA		  "x\"\02\xf4\10"  	 "H\"\06\xb\06"	/*O*/ //  	
+
+./tests/test_86.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+NOT             !          line=1 col=0
+ID              __Fi       line=1 col=3
+ID              __D        line=1 col=8
+ID              _J_7_r     line=1 col=16
+ID              ___m__     line=1 col=23
+ID              _hU        line=1 col=31
+DECIMAL_LITERAL 0XA        line=1 col=36
+STRING_LITERAL  "x\"\02\xf4\10" line=1 col=43
+STRING_LITERAL  "H\"\06\xb\06" line=1 col=62
+EOF
+################################################################################
+}		 ~ 	const	 	 var __h  _j	  _k___u		 __K  0Xf 5615 "J\v\0\x9C\xEE\03\t" //  //	/*"*/	// //	
+
+./tests/test_87.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RCURLY          }          line=1 col=0
+TILDE           ~          line=1 col=4
+CONST           const      line=1 col=7
+VAR             var        line=1 col=16
+ID              __h        line=1 col=20
+ID              _j         line=1 col=25
+ID              _k___u     line=1 col=30
+ID              __K        line=1 col=39
+DECIMAL_LITERAL 0Xf        line=1 col=44
+DECIMAL_LITERAL 5615       line=1 col=48
+STRING_LITERAL  "J\v\0\x9C\xEE\03\t" line=1 col=53
+EOF
+################################################################################
+}	|		  __Y		12 		 0X89	0x6FCf		"M\a\0\x5A\?" 	 	/*o*//*w\*//*+_o*/	
+
+./tests/test_88.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+RCURLY          }          line=1 col=0
+BITWISEOR       |          line=1 col=2
+ID              __Y        line=1 col=7
+DECIMAL_LITERAL 12         line=1 col=12
+DECIMAL_LITERAL 0X89       line=1 col=18
+DECIMAL_LITERAL 0x6FCf     line=1 col=23
+line 1:31 token recognition error at: '"M\a\0\x5A\?'
+line 1:43 token recognition error at: '" \t \t/*o*//*w\*'
+EOF
+################################################################################
+(	 	,  		if	 		____c 7  	"r\a\01\x81\""   "C\v\1\xb\"\1"	  "Q\a\12\x1e\xAi" 		"q\?\0\x4\x5a"			"A\n\10\x5\a\04" // //0 	
+
+./tests/test_89.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LPAREN          (          line=1 col=0
+COMMA           ,          line=1 col=4
+IF              if         line=1 col=9
+ID              ____c      line=1 col=15
+DECIMAL_LITERAL 7          line=1 col=21
+STRING_LITERAL  "r\a\01\x81\"" line=1 col=25
+STRING_LITERAL  "C\v\1\xb\"\1" line=1 col=42
+STRING_LITERAL  "Q\a\12\x1e\xAi" line=1 col=59
+line 1:78 token recognition error at: '"q\?'
+line 1:82 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=83
+line 1:84 token recognition error at: '\'
+ID              x4         line=1 col=85
+line 1:87 token recognition error at: '\'
+ID              x5a        line=1 col=88
+STRING_LITERAL  "			"      line=1 col=91
+ID              A          line=1 col=96
+line 1:97 token recognition error at: '\'
+ID              n          line=1 col=98
+line 1:99 token recognition error at: '\'
+DECIMAL_LITERAL 10         line=1 col=100
+line 1:102 token recognition error at: '\'
+ID              x5         line=1 col=103
+line 1:105 token recognition error at: '\'
+ID              a          line=1 col=106
+line 1:107 token recognition error at: '\'
+DECIMAL_LITERAL 04         line=1 col=108
+line 1:110 token recognition error at: '" // //0 \t'
+EOF
+################################################################################
+* 			| 	{ 	const 	 		___o6	 	   	5 0	"g\?\02\x6\10\n" 	//  //3 	 
+
+./tests/test_9.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+MUL             *          line=1 col=0
+BITWISEOR       |          line=1 col=5
+LCURLY          {          line=1 col=8
+CONST           const      line=1 col=11
+ID              ___o6      line=1 col=21
+DECIMAL_LITERAL 5          line=1 col=33
+DECIMAL_LITERAL 0          line=1 col=35
+line 1:37 token recognition error at: '"g\?'
+line 1:41 token recognition error at: '\'
+DECIMAL_LITERAL 02         line=1 col=42
+line 1:44 token recognition error at: '\'
+ID              x6         line=1 col=45
+line 1:47 token recognition error at: '\'
+DECIMAL_LITERAL 10         line=1 col=48
+line 1:50 token recognition error at: '\'
+ID              n          line=1 col=51
+line 1:52 token recognition error at: '" \t//  //3 \t '
+EOF
+################################################################################
+if void	*	_h_	 ___xX	_gb	  _NV	  _DN				_xE	_Y 	0x8	07736  	 			  		"H\r\106\xa\116" 	/*B*/	//u/*S=*/	//f	/*0%7*//*F:*//*r2*//*hDw*/			//:/*]e*/	 
+
+./tests/test_90.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+IF              if         line=1 col=0
+VOID            void       line=1 col=3
+MUL             *          line=1 col=8
+ID              _h_        line=1 col=10
+ID              ___xX      line=1 col=15
+ID              _gb        line=1 col=21
+ID              _NV        line=1 col=27
+ID              _DN        line=1 col=33
+ID              _xE        line=1 col=40
+ID              _Y         line=1 col=44
+DECIMAL_LITERAL 0x8        line=1 col=48
+DECIMAL_LITERAL 07736      line=1 col=52
+STRING_LITERAL  "H\r\106\xa\116" line=1 col=68
+EOF
+################################################################################
+void		____ru__				0X3e5	"R\t\16\xE\xb\b" //@,// /*4>*/ 
+
+./tests/test_91.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VOID            void       line=1 col=0
+ID              ____ru__   line=1 col=6
+DECIMAL_LITERAL 0X3e5      line=1 col=18
+STRING_LITERAL  "R\t\16\xE\xb\b" line=1 col=24
+EOF
+################################################################################
+while ] const	void				__X_CU	__NE  		_S0	 	_P  0354		07				"Z\'\06\x8\x55"		//-[vb+ /*p*//*\j*//*o~*//*6u*/ ///*^*/	/*lvN*/ /*^*///C	//	
+
+./tests/test_92.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+WHILE           while      line=1 col=0
+RSQUARE         ]          line=1 col=6
+CONST           const      line=1 col=8
+VOID            void       line=1 col=14
+ID              __X_CU     line=1 col=22
+ID              __NE       line=1 col=29
+ID              _S0        line=1 col=37
+ID              _P         line=1 col=43
+DECIMAL_LITERAL 0354       line=1 col=47
+DECIMAL_LITERAL 07         line=1 col=53
+STRING_LITERAL  "Z\'\06\x8\x55" line=1 col=59
+EOF
+################################################################################
+[	____H  	  _i	93  0x3e  		"A\v\10\x1W"	"L\r\14\x8\x2C\10\?"		"z\f\02\xA6\x7F"   	"b\"\02\x90\b" 				//2]>i/*Q;*/ 	
+
+./tests/test_93.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+LSQUARE         [          line=1 col=0
+ID              ____H      line=1 col=2
+ID              _i         line=1 col=12
+DECIMAL_LITERAL 93         line=1 col=15
+DECIMAL_LITERAL 0x3e       line=1 col=19
+STRING_LITERAL  "A\v\10\x1W" line=1 col=27
+line 1:40 token recognition error at: '"L\r\14\x8\x2C\10\?'
+STRING_LITERAL  "		"       line=1 col=59
+ID              z          line=1 col=63
+line 1:64 token recognition error at: '\'
+ID              f          line=1 col=65
+line 1:66 token recognition error at: '\'
+DECIMAL_LITERAL 02         line=1 col=67
+line 1:69 token recognition error at: '\'
+ID              xA6        line=1 col=70
+line 1:73 token recognition error at: '\'
+ID              x7F        line=1 col=74
+STRING_LITERAL  "   	"     line=1 col=77
+ID              b          line=1 col=83
+line 1:84 token recognition error at: '\'
+STRING_LITERAL  "\02\x90\b" line=1 col=85
+EOF
+################################################################################
+*	__E6 	___s	__c		2   06 231 "z\"\02\x2K" //	//ck 
+
+./tests/test_94.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+MUL             *          line=1 col=0
+ID              __E6       line=1 col=2
+ID              ___s       line=1 col=8
+ID              __c        line=1 col=13
+DECIMAL_LITERAL 2          line=1 col=18
+DECIMAL_LITERAL 06         line=1 col=22
+DECIMAL_LITERAL 231        line=1 col=25
+STRING_LITERAL  "z\"\02\x2K" line=1 col=29
+EOF
+################################################################################
+int void		while ___R 0X642A "S\'\0\xe7r\103\v"	"S\n\02\xBC\026" "F\\\0\xcE\""	"e\b\10\xB\?" 	 "y\a\025\xcdrL"	//zeu  
+
+./tests/test_95.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+INT             int        line=1 col=0
+VOID            void       line=1 col=4
+WHILE           while      line=1 col=10
+ID              ___R       line=1 col=16
+DECIMAL_LITERAL 0X642A     line=1 col=21
+STRING_LITERAL  "S\'\0\xe7r\103\v" line=1 col=28
+STRING_LITERAL  "S\n\02\xBC\026" line=1 col=47
+STRING_LITERAL  "F\\\0\xcE\"" line=1 col=64
+line 1:78 token recognition error at: '"e\b\10\xB\?'
+STRING_LITERAL  " 	 "      line=1 col=90
+ID              y          line=1 col=95
+line 1:96 token recognition error at: '\'
+ID              a          line=1 col=97
+line 1:98 token recognition error at: '\'
+DECIMAL_LITERAL 025        line=1 col=99
+line 1:102 token recognition error at: '\'
+ID              xcdrL      line=1 col=103
+line 1:108 token recognition error at: '"\t//zeu  '
+EOF
+################################################################################
+fun	&&			 		 int + string	[		~	__o 692	  "O\a\00\xApF\012"	/*11y*/ 	/*;U*/		//  /*J*/			
+
+./tests/test_96.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+FUN             fun        line=1 col=0
+AND             &&         line=1 col=4
+INT             int        line=1 col=13
+ADD             +          line=1 col=17
+STRING          string     line=1 col=19
+LSQUARE         [          line=1 col=26
+TILDE           ~          line=1 col=29
+ID              __o        line=1 col=31
+DECIMAL_LITERAL 692        line=1 col=35
+STRING_LITERAL  "O\a\00\xApF\012" line=1 col=41
+EOF
+################################################################################
+void		    	__t 	  _P  0x7  41    0XD1 1 24 0XB82 561176  	"H\\\0\x92\01"				//' // 
+
+./tests/test_97.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VOID            void       line=1 col=0
+ID              __t        line=1 col=11
+ID              _P         line=1 col=18
+DECIMAL_LITERAL 0x7        line=1 col=22
+DECIMAL_LITERAL 41         line=1 col=27
+DECIMAL_LITERAL 0XD1       line=1 col=33
+DECIMAL_LITERAL 1          line=1 col=38
+DECIMAL_LITERAL 24         line=1 col=40
+DECIMAL_LITERAL 0XB82      line=1 col=43
+DECIMAL_LITERAL 561176     line=1 col=49
+STRING_LITERAL  "H\\\0\x92\01" line=1 col=58
+EOF
+################################################################################
+var	__F5	0  	"q\\\14\x0\xa7"	"K\?\12\x26\xB\'\17"	 "R\r\13\x73\0"		////j(//  		////"o/*a}v*///&86~~/*_*/ /*{1T*/ //z2[nl*Par? 
+
+./tests/test_98.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+VAR             var        line=1 col=0
+ID              __F5       line=1 col=4
+DECIMAL_LITERAL 0          line=1 col=9
+STRING_LITERAL  "q\\\14\x0\xa7" line=1 col=13
+line 1:29 token recognition error at: '"K\?'
+line 1:33 token recognition error at: '\'
+DECIMAL_LITERAL 12         line=1 col=34
+line 1:36 token recognition error at: '\'
+ID              x26        line=1 col=37
+line 1:40 token recognition error at: '\'
+ID              xB         line=1 col=41
+line 1:43 token recognition error at: '\'
+line 1:44 token recognition error at: '''
+line 1:45 token recognition error at: '\'
+DECIMAL_LITERAL 17         line=1 col=46
+STRING_LITERAL  "	 "       line=1 col=48
+ID              R          line=1 col=52
+line 1:53 token recognition error at: '\'
+ID              r          line=1 col=54
+line 1:55 token recognition error at: '\'
+DECIMAL_LITERAL 13         line=1 col=56
+line 1:58 token recognition error at: '\'
+ID              x73        line=1 col=59
+line 1:62 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=63
+STRING_LITERAL  "		////j(//  		////" line=1 col=64
+ID              o          line=1 col=84
+EOF
+################################################################################
+int	 	__s   1 	"Q\r\1\x82R" "I\"\12\x1\n\a"	"g\?\006\x6\x1D" 	"k\\\124\xdb\0"  "s\v\14\xD6\a"	/*$*/	
+
+./tests/test_99.g
+rm -rf bin;
+rm -rf Parse/antlr_build;
+INT             int        line=1 col=0
+ID              __s        line=1 col=6
+DECIMAL_LITERAL 1          line=1 col=12
+STRING_LITERAL  "Q\r\1\x82R" line=1 col=15
+STRING_LITERAL  "I\"\12\x1\n\a" line=1 col=28
+line 1:44 token recognition error at: '"g\?'
+line 1:48 token recognition error at: '\'
+DECIMAL_LITERAL 006        line=1 col=49
+line 1:52 token recognition error at: '\'
+ID              x6         line=1 col=53
+line 1:55 token recognition error at: '\'
+ID              x1D        line=1 col=56
+STRING_LITERAL  " 	"       line=1 col=59
+ID              k          line=1 col=63
+line 1:64 token recognition error at: '\'
+line 1:65 token recognition error at: '\'
+line 1:66 token recognition error at: '\'
+DECIMAL_LITERAL 124        line=1 col=67
+line 1:70 token recognition error at: '\'
+ID              xdb        line=1 col=71
+line 1:74 token recognition error at: '\'
+DECIMAL_LITERAL 0          line=1 col=75
+STRING_LITERAL  "  "       line=1 col=76
+ID              s          line=1 col=80
+line 1:81 token recognition error at: '\'
+ID              v          line=1 col=82
+line 1:83 token recognition error at: '\'
+DECIMAL_LITERAL 14         line=1 col=84
+line 1:86 token recognition error at: '\'
+ID              xD6        line=1 col=87
+line 1:90 token recognition error at: '\'
+ID              a          line=1 col=91
+line 1:92 token recognition error at: '"\t/*$*/\t'
+EOF
