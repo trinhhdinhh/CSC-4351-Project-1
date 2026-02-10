@@ -8,114 +8,116 @@ tokens { STRING_LITERAL }
 
 @members {
    StringBuilder sb;
-
-
    private int stringToInt(String target) {
-      if (target.startsWith("0x") || target.startsWith("0X")) { // Hex
+      
+      if (target.startsWith("0x") || target.startsWith("0X")) { //Hex, substring from 2 on to skip "0x"
          return Integer.parseInt(target.substring(2), 16);
-      } else if (target.startsWith("0") && target.length() > 1) { // Octal
+      }
+      else if (target.startsWith("0") && target.length() > 1) { //Octal, can just parse entire integer 
          return Integer.parseInt(target, 8);
-      } else { // Decimal
+      } 
+      else { // Decimal
          return Integer.parseInt(target, 10);
       }
    }
+
 }
 
 fragment ALPHA
    : [A-Za-z]
    ;
-
 fragment DIGIT
    : [0-9]
    ;
 
-// ===== KEYWORDS =====
-VAR     : 'var';
-FUN     : 'fun';
-WHILE   : 'while';
-CONST   : 'const';
-STRING  : 'string';
-VOID    : 'void';
-RETURN  : 'return';
-IF      : 'if';
-ELSE    : 'else';
-BREAK   : 'break';
-INT     : 'int';
-TYPEDEF : 'typedef';
-STRUCT  : 'struct';
-UNION   : 'union';
+// ===== KEYWORDS (must come before ID) =====
+// Person 1: Keywords must be defined before ID to ensure proper matching
+VAR     : 'var'     ;
+FUN     : 'fun'     ;
+WHILE   : 'while'   ;
+CONST   : 'const'   ;
+STRING  : 'string'  ;
+VOID    : 'void'    ;
+RETURN  : 'return'  ;
+IF      : 'if'      ;
+ELSE    : 'else'    ;
+BREAK   : 'break'   ;
+INT     : 'int'     ;
+TYPEDEF : 'typedef' ;
+STRUCT  : 'struct'  ;
+UNION   : 'union'   ;
 
-// ===== IDENTIFIERS =====
+// ===== IDENTIFIER (must come after keywords) =====
+// Person 1: ID follows C spec - starts with letter/underscore, followed by alphanumeric/underscore
 ID
    : (ALPHA | '_') (ALPHA | DIGIT | '_')*
    ;
 
 // ===== OPERATORS =====
-AND   : '&&';
-OR    : '||';
-ARROW : '->';
+// Person 2: Multi-character operators MUST come before single-character ones
 
-LT     : '<';
-MUL    : '*';
-ADD    : '+';
-TILDE  : '~';
-ASSIGN : '=';
-DOT    : '.';
+// Multi-character operators
+AND    : '&&'  ;  // Logical AND
+OR     : '||'  ;  // Logical OR
+ARROW   : '->'  ;  // Arrow operator
+
+// Single-character operators
+LT      : '<'   ;  // Less than
+MUL     : '*'   ;  // Multiply
+ADD     : '+'   ;  // Add
+TILDE    : '~'   ;  // Bitwise NOT
+ASSIGN  : '='   ;  // Assignment
+DOT     : '.'   ;  // Dot operator
 
 // ===== PUNCTUATORS =====
-LCURLY    : '{';
-RCURLY    : '}';
-COMMA     : ',';
-LPAREN    : '(';
-RPAREN    : ')';
-BITWISEAND: '&';
-BITWISEOR : '|';
-NOT       : '!';
-SEMI      : ';';
-COLON     : ':';
-LSQUARE   : '[';
-RSQUARE   : ']';
+// Person 2: All punctuators
+LCURLY  : '{'   ;  // Left brace
+RCURLY  : '}'   ;  // Right brace
+COMMA   : ','   ;  // Comma
+LPAREN  : '('   ;  // Left parenthesis
+RPAREN  : ')'   ;  // Right parenthesis
+BITWISEAND    : '&'   ;  // Bitwise AND / Address-of
+BITWISEOR     : '|'   ;  // Bitwise OR
+NOT    : '!'   ;  // Logical NOT
+SEMI    : ';'   ;  // Semicolon
+COLON   : ':'   ;  // Colon
+LSQUARE  : '['   ;  // Left bracket
+RSQUARE  : ']'   ;  // Right bracket
 
 // ===== INTEGERS =====
+// Person 3
 DECIMAL_LITERAL
-   : '0' [xX] [0-9a-fA-F]+
-   | '0' [0-7]+
-   | '0'
-   | [1-9] DIGIT*
+   : '0' [xX] [0-9a-fA-F]+      // Hex -> 0x(Digit between 0-9,a-f,A-F) repeated at least once
+   | '0' [0-7]+                  // Octal -> 0(Digit between 0-7) repeated at least once
+   | '0'                         // Single digit zero
+   | [1-9] DIGIT*                // Decimal -> (Digit between 1-9) (Digit fragment defined earlier, that is digit between 0-9) repeated 0 or more times
    ;
 
 // ===== COMMENTS =====
-LINE_COMMENT  : '//' ~[\r\n]* -> skip;
-BLOCK_COMMENT : '/*' .*? '*/' -> skip;
+// Person 4
+LINE_COMMENT  : '//' ~[\r\n]* -> skip; //Single Line
+BLOCK_COMMENT : '/*' .*? '*/' -> skip; //Block Comments (Get Skipped)
 
 // ===== WHITESPACE =====
-WS : [ \t\r\n]+ -> skip;
+WS : [ \t\r\n]+ -> skip; //Skips tabs, spaces, and newlines
 
 // ===== STRINGS =====
-STRING_START
-   : '"' { sb = new StringBuilder(); }
+STRING_START // Entry point for string literals
+   : '"' { sb = new StringBuilder(); } //Initialize string builder
      -> pushMode(STRING_MODE), skip
-   ;  
+   ; 
 
-mode STRING_MODE;
+mode STRING_MODE; //Switch to string mode
 
-<<<<<<< Updated upstream
-  fragment ESC_SEQ
-  : '\\' [btnrfav"'\\]
-  |'\\' [0-7] [0-7]? [0-7]?
-  | '\\' 'x' [0-9a-fA-F]+
-  ;
-   
-=======
-STRING_END
+STRING_END //End of string
    : '"' { setText(sb.toString()); } -> type(STRING_LITERAL), popMode
    ;
 
-STRING_CHAR
+STRING_CHAR //Regular characters inside string (not backslashes or quotes)
    : ~["\\\r\n] { sb.append(getText()); } -> skip
    ;
 
-ESC_SIMPLE
+ESC_SIMPLE //Simple escapes (\n \t)
    : '\\' [btnrfav"'\\]
      {
         switch(getText().charAt(1)) {
@@ -133,19 +135,18 @@ ESC_SIMPLE
      } -> skip
    ;
 
-ESC_OCT
+ESC_OCT //Octal escapes (\0 - \377)
    : '\\' [0-7] { sb.append((char)Integer.parseInt(getText().substring(1),8)); } -> skip
    ;
 
-ESC_HEX
+ESC_HEX //Hexidecimal escape sequences (\x00 - \xFF)
    : '\\x' [0-9a-fA-F][0-9a-fA-F] { sb.append((char)Integer.parseInt(getText().substring(2),16)); } -> skip
    ;
 
-BAD_STRING_ESCAPE
+BAD_STRING_ESCAPE //Invalid escape sequences
    : '\\' . -> skip
    ;
 
-STRING_NEWLINE
+STRING_NEWLINE // Newlines inside strings (optional: replace with "\\n" if needed)
    : [\r\n]
    ;
->>>>>>> Stashed changes
