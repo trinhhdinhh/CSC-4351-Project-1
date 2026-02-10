@@ -63,7 +63,7 @@ ARROW   : '->'  ;  // Arrow operator
 
 // Single-character operators
 LT      : '<'   ;  // Less than
-MUL     : '*'   ;  // Multiply
+STAR     : '*'   ;  // Multiply
 ADD     : '+'   ;  // Add
 TILDE    : '~'   ;  // Bitwise NOT
 ASSIGN  : '='   ;  // Assignment
@@ -79,7 +79,7 @@ RPAREN  : ')'   ;  // Right parenthesis
 BITWISEAND    : '&'   ;  // Bitwise AND / Address-of
 BITWISEOR     : '|'   ;  // Bitwise OR
 NOT    : '!'   ;  // Logical NOT
-SEMI    : ';'   ;  // Semicolon
+SEMICOLON    : ';'   ;  // Semicolon
 COLON   : ':'   ;  // Colon
 LSQUARE  : '['   ;  // Left bracket
 RSQUARE  : ']'   ;  // Right bracket
@@ -118,7 +118,7 @@ STRING_CHAR //Regular characters inside string (not backslashes or quotes)
    ;
 
 ESC_SIMPLE //Simple escapes (\n \t)
-   : '\\' [btnrfav"'\\]
+   : '\\' [btnrfav"'\\?]
      {
         switch(getText().charAt(1)) {
            case 'b': sb.append('\b'); break;
@@ -128,19 +128,29 @@ ESC_SIMPLE //Simple escapes (\n \t)
            case 'f': sb.append('\f'); break;
            case 'a': sb.append('\u0007'); break;
            case 'v': sb.append('\u000B'); break;
-           case '"': sb.append('"'); break;
+           case '"': sb.append("\\\""); break;
            case '\'': sb.append('\''); break;
-           case '\\': sb.append('\\'); break;
+           case '\\': sb.append("\\"); break;
+           case '?': sb.append("?"); break;
         }
      } -> skip
    ;
 
 ESC_OCT //Octal escapes (\0 - \377)
-   : '\\' [0-7] { sb.append((char)Integer.parseInt(getText().substring(1),8)); } -> skip
+   : '\\' ( [0-3] [0-7] [0-7]  // Three digits: \000 - \377
+          | [0-7] [0-7]         // Two digits: \00 - \77
+          | [0-7]               // One digit: \0 - \7
+          )
+     { sb.append((char)Integer.parseInt(getText().substring(1), 8)); }
+     -> skip
    ;
 
-ESC_HEX //Hexidecimal escape sequences (\x00 - \xFF)
-   : '\\x' [0-9a-fA-F][0-9a-fA-F] { sb.append((char)Integer.parseInt(getText().substring(2),16)); } -> skip
+ESC_HEX //Hexadecimal escape sequences (\x0 - \xFF)
+   : '\\x' ( [0-9a-fA-F] [0-9a-fA-F]  // Two hex digits
+           | [0-9a-fA-F]               // One hex digit
+           )
+     { sb.append((char)Integer.parseInt(getText().substring(2), 16)); }
+     -> skip
    ;
 
 BAD_STRING_ESCAPE //Invalid escape sequences
